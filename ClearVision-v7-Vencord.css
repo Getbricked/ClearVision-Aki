@@ -1,0 +1,347 @@
+/**
+ * @name ClearVision V7 for Vencord
+ * @author ClearVision Team
+ * @version 7.0.0 pre
+ * @description Highly customizable theme for BetterDiscord.
+ * @source https://github.com/ClearVision/ClearVision-v7
+ * @website https://clearvision.github.io
+ * @invite dHaSxn3
+ */
+/* IMPORT CSS */
+@import url("https://clearvision.github.io/ClearVision-v7/main.css");
+@import url("https://clearvision.github.io/ClearVision-v7/vencord.css");
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css');
+@import url('https://fonts.googleapis.com/css2?family=Consolas');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@550&display=swap');
+
+/* @import url('https://raw.githubusercontent.com/DiscordStyles/HorizontalServerList/deploy/HorizontalServerList.theme.css');
+ *
+ * / ** SETTINGS */
+:root {
+  /* ACCENT COLORS */
+  --main-color: #2780e6;
+  --hover-color: #1e63b3;
+  --success-color: #43b581;
+  --danger-color: #982929;
+  /* STATUS COLORS */
+  --online-color: #43b581;
+  --idle-color: #faa61a;
+  --dnd-color: #982929;
+  --streaming-color: #593695;
+  --offline-color: #808080;
+  /* BACKGROUND IMAGES */
+  --background-shading-percent: 100%;
+  --background-image: url(https://i.imgur.com/zU7YY60.jpeg);
+  --background-attachment: fixed;
+  --user-popout-image: var(--background-image);
+  --user-popout-attachment: var(--background-attachment);
+  --user-modal-image: var(--background-image);
+  --user-modal-attachment: var(--background-attachment);
+  /* HOME ICON */
+  --home-icon: url(https://clearvision.github.io/icons/discord.svg);
+  /* FONTS */
+  --main-font: "Raleway", Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --code-font: Consolas, "gg mono", "Liberation Mono", Menlo, Courier, monospace;
+  /* BACKGROUND IMAGE FILTERS */
+  --background-filter: saturate(calc(var(--saturation-factor, 1) * 1));
+  --user-popout-filter: var(--background-filter);
+  --user-modal-filter: var(--background-filter);
+  --columns: 2;
+  --guildsize: 57;
+  --aligndms: 0;
+}
+
+/* THEME SPECIFIC SHADING */
+/* LIGHT THEME */
+:is(.theme-light, .theme-dark .theme-light) {
+  --background-shading: rgba(252, 252, 252, 0.3);
+  --card-shading: rgba(252, 252, 252, 0.3);
+  --popout-shading: rgba(252, 252, 252, 0.7);
+  --modal-shading: rgba(252, 252, 252, 0.5);
+  --input-shading: rgba(0, 0, 0, 0.3);
+  --normal-text: #36363c;
+  --muted-text: #75757e;
+}
+
+/* ASH THEME / DARK THEME IN OLD UI */
+:is(.theme-dark, .theme-light .theme-dark) {
+  --background-shading: rgba(0, 0, 0, 0.4);
+  --card-shading: rgba(0, 0, 0, 0.3);
+  --popout-shading: rgba(0, 0, 0, 0.6);
+  --modal-shading: rgba(0, 0, 0, 0.4);
+  --input-shading: rgba(255, 255, 255, 0.05) --normal-text: #d8d8db;
+  --muted-text: #aeaeb4;
+}
+
+/* DARK THEME - NEW UI EXCLUSIVE */
+:is(.theme-darker, .theme-light .theme-darker) {
+  --background-shading: rgba(0, 0, 0, 0.6);
+  --card-shading: rgba(0, 0, 0, 0.4);
+  --popout-shading: rgba(0, 0, 0, 0.7);
+  --modal-shading: rgba(0, 0, 0, 0.5);
+  --input-shading: rgba(255, 255, 255, 0.05);
+  --normal-text: #fbfbfb;
+  --muted-text: #94949c;
+}
+
+/* ONYX THEME - NEW UI EXCLUSIVE */
+:is(.theme-midnight, .theme-light .theme-midnight) {
+  --background-shading: rgba(0, 0, 0, 0.8);
+  --card-shading: rgba(0, 0, 0, 0.5);
+  --popout-shading: rgba(0, 0, 0, 0.8);
+  --modal-shading: rgba(0, 0, 0, 0.6);
+  --input-shading: rgba(255, 255, 255, 0.05);
+  --normal-text: #dcdcde;
+  --muted-text: #86868e;
+}
+
+/* ------------------------------ ADD ADDITIONAL CSS BELOW HERE ------------------------------ */
+
+/* Round servers icon */
+.icon__6e9f8 {
+  border-radius: 50%;
+}
+
+/* URL text */
+/* .markup__75297 .anchor_edefb8 {
+ * color: black;
+ } * */
+
+/* USER PANEL */
+/* Transparent user panel */
+.visual-refresh .panels_c48ade {
+  background: rgba(0, 0, 0, 0.411) !important;
+  backdrop-filter: rgba(0, 0, 0, 0.411) !important;
+  /* Make panel neater */
+  padding: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Old User Panel */
+
+.visual-refresh section.panels_c48ade {
+  margin-left: 153px;
+  width: calc(100% - var(--space-xs)*2 - 140px) !important;
+
+  .actionButtons_e131a9 button {
+    padding: 0;
+  }
+}
+
+nav.guilds_c48ade {
+  margin-bottom: 0 !important;
+}
+
+.panelTitleContainer__37e49 {
+  width: 120px;
+}
+
+/*EMOJI BACKGROUND TRANSPARENCY */
+.popoutContainer__0f481,
+.popoutContent_d5cd2d,
+.guildSection_d5cd2d {
+  background: rgba(0, 0, 0, 0.6) !important;
+  backdrop-filter: none !important;
+}
+
+/* WHO IS CHATTING */
+.text_b88801 {
+  font-size: 14px;
+}
+
+/* Role groups */
+.membersGroup_c8ffbb {
+  background: rgba(32, 181, 255, 0.025);
+  color: #0cadfe;
+  margin: auto;
+
+  /* Set initial border color and width */
+  border-bottom-width: 3px;
+  border-style: solid;
+  border-color: transparent;
+
+  /* Gradient border */
+  border-image: linear-gradient(to right, #09a5ff8f, #09a5ff8f);
+  border-image-slice: 1;
+}
+
+/* Members list */
+.visual-refresh .membersWrap_c8ffbb {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* Usernames in servers */
+.username__5d473 {
+  /* not bold text */
+  font-weight: 400;
+
+}
+
+/* Server lists */
+.visual-refresh .guilds_c48ade {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+/* Server unread + hover */
+/* .item__58105 {} */
+
+
+/* Unread channel */
+/* .visual-refresh .unread__2ea32 {} */
+
+/* Channels list + Server name above it*/
+.visual-refresh .container__2637a {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* Username in voice chat */
+.usernameFont__07f91 {
+  font-weight: 700;
+  text-shadow: #000000 0px 0px 3px;
+  padding-left: 5px;
+}
+
+/* Voice chat user glow effect for both username and profile picture */
+.avatarSpeaking__07f91 {
+  background-color: #1e63b3;
+  box-shadow: 0 0 10px #1e63b3, 0 0 20px #1e63b3;
+  border-radius: 5px;
+  transition: box-shadow 0.05s ease, background-color 0.05s ease;
+}
+
+.usernameSpeaking__07f91 {
+  background-color: #1e63b3;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  border-radius: 5px;
+  text-shadow: 0 0 5px #1e63b3, 0 0 10px #1e63b3;
+  font-weight: 700;
+  transition: box-shadow 0.05s ease, background-color 0.05s ease;
+}
+
+.container__91e7c {
+  display: flex;
+  align-items: center;
+}
+
+/* Server panel */
+.visual-refresh .sidebarList_c48ade {
+  border-radius: 0px;
+}
+
+/* Category background*/
+.visual-refresh .mainContent__29444 {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/* Category text */
+.visual-refresh .name__29444 {
+  text-shadow: #000000 0px 0px 5px;
+  font-size: 15px;
+}
+
+/* Channel text */
+.name__2ea32 {
+  color: rgb(218, 218, 218);
+  text-shadow: #000000 0px 0px 1px;
+}
+
+/* SPOILER */
+.spoilerContent__54ab5,
+.spoilerMarkdownContent__54ab5,
+.hidden__54ab5 {
+  background: rgba(0, 0, 0, 1) !important;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+/* Chat input */
+.scrollableContainer__74017,
+.themedBackground__74017 {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* .container_c48ade {
+ * --custom-chat-input-margin-bottom: 5px;
+ } * */
+
+
+/* Friends List Header Fix */
+.visual-refresh .headerText__99e7c {
+  display: flex;
+  text-transform: uppercase;
+  font-size: 14.5px;
+  font-weight: 700;
+  align-items: center
+}
+
+/* DM List size */
+.linkButtonIcon__972a0,
+.name__20a53 {
+  font-size: 14px;
+  color: #fff27a;
+  text-shadow: #000000 0px 0px 2px;
+  font-weight: 500;
+  transition: all 0.15s ease-in-out;
+  overflow: hidden;
+}
+
+/* DM background dim */
+.visual-refresh .privateChannels__35e86 {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* Friends List size */
+.username__0a06e {
+  color: #FFA500;
+  font-size: 15px;
+}
+
+.subtext__0a06e {
+  color: white;
+}
+
+
+/* WINDOWS TOP BAR */
+.title_c38106 {
+  background: rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0);
+}
+
+/* VC Shiki Code */
+.vc-shiki-container {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+/* custom watermark -- by Naoko(5ot) */
+.leading_c38106::before {
+  content: "ClearVision";
+  position: static;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text-normal);
+  order: 2;
+  filter: drop-shadow(0 0 5px var(--hsl-main-color));
+}
+
+.leading_c38106::after {
+  content: "Aki🍂";
+  color: rgb(129, 204, 228);
+  position: static;
+  margin-top: 8px;
+  margin-left: 2px;
+  font-family: var(--code-font);
+  font-size: 16px;
+  font-weight: 600;
+  /* color: var(--text-muted); */
+  order: 3;
+}
+
+/* Mention */
+.mentioned__5126c {
+  --background-mentioned: rgba(255, 229, 84, 0.1);
+  --background-mentioned-hover: rgba(255, 229, 84, 0.1);
+}
