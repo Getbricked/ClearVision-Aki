@@ -13,6 +13,7 @@
 @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css');
 @import url('https://fonts.googleapis.com/css2?family=Consolas');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@550&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@530&display=swap');
 
 /* @import url('https://raw.githubusercontent.com/DiscordStyles/HorizontalServerList/deploy/HorizontalServerList.theme.css');
  *
@@ -40,7 +41,7 @@
   /* HOME ICON */
   --home-icon: url(https://clearvision.github.io/icons/discord.svg);
   /* FONTS */
-  --main-font: "Raleway", Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --main-font: "Quicksand", Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
   --code-font: Consolas, "gg mono", "Liberation Mono", Menlo, Courier, monospace;
   /* BACKGROUND IMAGE FILTERS */
   --background-filter: saturate(calc(var(--saturation-factor, 1) * 1));
