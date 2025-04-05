@@ -120,21 +120,17 @@
 
 /* Old User Panel */
 
-.visual-refresh section.panels_c48ade {
-  margin-left: 153px;
-  width: calc(100% - var(--space-xs)*2 - 140px) !important;
-
-  .actionButtons_e131a9 button {
-    padding: 0;
-  }
-}
-
 nav.guilds_c48ade {
   margin-bottom: 0 !important;
 }
 
-.panelTitleContainer__37e49 {
-  width: 120px;
+.guilds_c48ade {
+  --custom-app-panels-height: 0px !important;
+}
+
+.panels_c48ade {
+  left: calc(2 * var(--custom-guild-list-width) + 25px) !important;
+  width: calc(100% - var(--custom-guild-list-width)*2 - 25px) !important;
 }
 
 /*EMOJI BACKGROUND TRANSPARENCY */
