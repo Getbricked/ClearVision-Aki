@@ -1,0 +1,24 @@
+/* custom watermark -- by Naoko(5ot) */
+.leading_c38106::before {
+    content: "ClearVision";
+    position: static;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--text-normal);
+    order: 2;
+    filter: drop-shadow(0 0 5px var(--hsl-main-color));
+}
+
+.leading_c38106::after {
+    content: "Aki🍂";
+    color: rgb(129, 204, 228);
+    position: static;
+    margin-top: 8px;
+    margin-left: 2px;
+    font-family: var(--code-font);
+    font-size: 16px;
+    font-weight: 600;
+    /* color: var(--text-muted); */
+    order: 3;
+}

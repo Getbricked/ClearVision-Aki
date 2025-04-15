@@ -1,0 +1,34 @@
+/* Friends List Header Fix */
+.visual-refresh .headerText__99e7c {
+    display: flex;
+    text-transform: uppercase;
+    font-size: 14.5px;
+    font-weight: 700;
+    align-items: center
+}
+
+/* DM List size */
+.linkButtonIcon__972a0,
+.name__20a53 {
+    font-size: 14px;
+    color: #fff27a;
+    text-shadow: #000000 0px 0px 2px;
+    font-weight: 700;
+    transition: all 0.15s ease-in-out;
+    overflow: hidden;
+}
+
+/* DM background dim */
+.visual-refresh .privateChannels__35e86 {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* Friends List size */
+.username__0a06e {
+    color: #FFA500;
+    font-size: 15px;
+}
+
+.subtext__0a06e {
+    color: white;
+}

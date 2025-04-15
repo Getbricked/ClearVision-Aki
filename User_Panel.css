@@ -1,0 +1,36 @@
+/* USER PANEL */
+/* Transparent user panel */
+.visual-refresh .panels_c48ade {
+    background: rgba(0, 0, 0, 0.411) !important;
+    backdrop-filter: rgba(0, 0, 0, 0.411) !important;
+    border-radius: 10px;
+    border: 1px solid rgba(225, 240, 253, 0.123);
+    padding: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* Old User Panel */
+
+nav.guilds_c48ade {
+    margin-bottom: 0 !important;
+}
+
+.guilds_c48ade {
+    --custom-app-panels-height: 0px !important;
+}
+
+.panels_c48ade {
+    left: calc(2 * var(--custom-guild-list-width) + 25px) !important;
+    width: calc(100% - var(--custom-guild-list-width)*2 - 25px) !important;
+}
+
+/* Activity panel border */
+.visual-refresh .panel__5dec7 {
+    border-bottom: 1px solid rgba(225, 240, 253, 0.123);
+}
+
+/* Voice chat panel border */
+.wrapper_e131a9 {
+    border-bottom: 1px solid rgba(225, 240, 253, 0.123);
+}

@@ -1,0 +1,30 @@
+/* Voice chat user glow effect for both username and profile picture */
+.avatarSpeaking__07f91 {
+    background-color: #1e63b3;
+    box-shadow: 0 0 10px #1e63b3, 0 0 20px #1e63b3;
+    border-radius: 5px;
+    transition: box-shadow 0.05s ease, background-color 0.05s ease;
+}
+
+.usernameSpeaking__07f91 {
+    background-color: #1e63b3;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    border-radius: 5px;
+    text-shadow: 0 0 5px #1e63b3, 0 0 10px #1e63b3;
+    font-weight: 700;
+    transition: box-shadow 0.05s ease, background-color 0.05s ease;
+}
+
+.container__91e7c {
+    display: flex;
+    align-items: center;
+}
+
+/* Username in voice chat */
+.usernameFont__07f91 {
+    font-weight: 700;
+    text-shadow: #000000 0px 0px 3px;
+    padding-left: 5px;
+}

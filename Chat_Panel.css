@@ -1,0 +1,70 @@
+/* WHO IS CHATTING */
+.text_b88801 {
+    font-size: 14px;
+}
+
+/* Chat header */
+.visual-refresh .title_f75fb0 {
+    background: rgba(0, 0, 0, 0.5);
+    /* border-radius: 10px; */
+    border-bottom: 1px solid rgba(225, 240, 253, 0.123);
+}
+
+/* Chat panel */
+.visual-refresh .page_c48ade {
+    border-radius: 10px;
+    border: 1px solid rgba(225, 240, 253, 0.123);
+}
+
+/* URL text */
+/* .markup__75297 .anchor_edefb8 {
+ * color: black;
+ } * */
+
+
+/* SPOILER */
+.spoilerContent__54ab5,
+.spoilerMarkdownContent__54ab5,
+.hidden__54ab5 {
+    background: rgba(0, 0, 0, 1) !important;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+/* Chat input */
+.scrollableContainer__74017,
+.themedBackground__74017 {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* Mention */
+.mentioned__5126c {
+    --background-mentioned: rgba(255, 229, 84, 0.1);
+    --background-mentioned-hover: rgba(255, 229, 84, 0.1);
+}
+
+/* Edit timestamp */
+.messageContent_c19a55 .timestamp_c19a55 time:after {
+    content: " (" attr(aria-label) ")";
+    font-size: 0.625rem;
+    font-weight: 400;
+}
+
+.messageContent_c19a55 .timestamp_c19a55 span {
+    display: none;
+}
+
+/* Inline code `` `` */
+.visual-refresh .markup__75297 code.inline {
+    background: rgba(0, 0, 0, 1);
+}
+
+/* Username in chat */
+.username_c19a55 {
+    font-weight: 900;
+}
+
+/* Bold text weight max */
+.markup__75297 strong {
+    font-weight: 900;
+}

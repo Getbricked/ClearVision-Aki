@@ -1,0 +1,14 @@
+/* User pop up remove banner for non-nitro users*/
+:where(.banner__68edb:not([style*="background-image"])) {
+    background: none !important;
+}
+
+/* Remove outer padding + remove custom nitro background for nitro user */
+.outer_c0bea0.custom-user-profile-theme {
+    background: rgba(0, 0, 0, 0.4) !important;
+    padding: 0;
+}
+
+.outer_c0bea0.custom-user-profile-theme .inner_c0bea0 {
+    background: rgba(0, 0, 0, 0.4) !important;
+}
