@@ -16,6 +16,7 @@
     border: 1px solid rgba(225, 240, 253, 0.123);
 }
 
+/* Can put --text-link: color; in specific theme instead of this below */
 /* URL text */
 /* .markup__75297 .anchor_edefb8 {
  * color: black;
