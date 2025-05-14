@@ -12,3 +12,9 @@
 
 /* IMPORT Hyprcord */
 @import url(https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/Hyprcord/main.css);
+
+/* SETTINGS */
+:root {
+    /* Background image */
+    --background-image: url(https://i.imgur.com/zU7YY60.jpeg);
+}
