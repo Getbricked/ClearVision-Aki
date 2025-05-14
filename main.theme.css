@@ -7,36 +7,15 @@
  * @invite dHaSxn3
  */
 
-/* IMPORT SOURCE */
+/* IMPORT SOURCE (Themes) */
 @import url(https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/Hyprcord/Themes/forum.css);
 @import url(https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/Hyprcord/Themes/nameplate.css);
 @import url(https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/Hyprcord/Themes/server.css);
+@import url(https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/Hyprcord/Themes/global.css);
 
 /* SETTINGS */
 :root {
     /* Tweak in case using ServerColumn addon (only work for 1 column) */
     --columns: 1;
     --global-margin: 20px;
-}
-
-/* Outside margin */
-.visual-refresh .base_c48ade {
-    margin: var(--global-margin);
-}
-
-/* Top bar */
-#app-mount .bar_c38106:not(.show_c38106) {
-    border: 1px solid var(--main-color);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-}
-
-/* User panel */
-.visual-refresh .panels_c48ade {
-    border-radius: 10px;
-    border: 1px solid var(--main-color);
-    padding: 0px;
-    padding-left: 5px;
-    padding-right: 5px;
-    width: calc(100% - var(--global-margin)) !important;
 }
