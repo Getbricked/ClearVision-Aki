@@ -1,24 +1,13 @@
-/* ------------------- HOME ------------------- */
-
-/* Friend list */
-.visual-refresh .peopleColumn__133bf {
-    border-radius: 10px;
-    border: 1px solid var(--main-color);
-    margin-top: var(--global-margin);
-    margin-right: var(--global-margin);
-}
-
-/* Now playing */
-.nowPlayingColumn__133bf {
-    border-radius: 10px;
-    border: 1px solid var(--main-color);
-    margin-top: var(--global-margin);
-}
-
 /* ------------------- GLOBAL ------------------- */
 /* Outside margin */
 .visual-refresh .base_c48ade {
     margin: var(--global-margin);
+}
+
+/* Chat input */
+.visual-refresh .form_f75fb0 {
+    padding-left: var(--global-margin);
+    padding-right: var(--global-margin);
 }
 
 /* Top bar */
@@ -36,4 +25,57 @@
     padding-left: 5px;
     padding-right: 5px;
     width: calc(100% - var(--global-margin)) !important;
+}
+
+/* Notice */
+.visual-refresh .notice__6e2b9 {
+    border-radius: 10px;
+    margin-top: var(--global-margin);
+    border: 1px solid;
+    margin-left: var(--global-margin);
+}
+
+/* ------------------- FRIENDS ------------------- */
+
+/* Friend list */
+.visual-refresh .peopleColumn__133bf {
+    border-radius: 10px;
+    border: 1px solid var(--main-color);
+    margin-top: var(--global-margin);
+    margin-right: var(--global-margin);
+}
+
+/* Now playing */
+.nowPlayingColumn__133bf {
+    border-radius: 10px;
+    border: 1px solid var(--main-color);
+    margin-top: var(--global-margin);
+}
+
+/* ------------------- NITRO ------------------- */
+/* Nitro */
+.mainPageScroller_ca1a02 {
+    border-radius: 10px;
+    margin-top: var(--global-margin);
+    border: 1px solid var(--main-color);
+}
+
+/* ------------------- SHOP ------------------- */
+/* Header */
+.mainPageScroller_ca1a02 {
+    border-radius: 10px;
+    margin-top: var(--global-margin);
+    border: 1px solid var(--main-color);
+}
+
+.visual-refresh .shop__6db1d {
+    background: transparent;
+}
+
+/* Shop */
+.visual-refresh .shop__08415 {
+    border-radius: 10px;
+    border: 1px solid var(--main-color);
+    margin-top: var(--global-margin);
+    height: 100% !important;
 }

@@ -40,7 +40,9 @@ This theme is inspired by **Jugom** and the **Hyprland window manager**.
 
 ### 2. Place the Downloaded File in Your Themes Folder
 
-## Custom Background Image
+## Basic Customization
+
+### 1. Change the Background Picture (Not for **Hyprcord Core**)
 
 To set a custom background image, replace the URL inside `url()` with the link to your desired image:
 
@@ -48,6 +50,15 @@ To set a custom background image, replace the URL inside `url()` with the link t
 /* Custom Background Image */
 :root {
   --background-image: url(https://i.imgur.com/zU7YY60.jpeg);
+}
+```
+
+### 2. Change the Global Margin
+
+```css
+/* Global Margin */
+:root {
+  --global-margin: 20px; /* Default is 20px */
 }
 ```
 
