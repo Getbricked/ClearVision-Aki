@@ -1,0 +1,18 @@
+/* Forum */
+.visual-refresh .container_f369db {
+    border-radius: 10px;
+    border: 1px solid var(--main-color);
+    margin-top: var(--global-margin);
+}
+
+/* Left side */
+.visual-refresh .chat_f75fb0.threadSidebarOpen_f75fb0 {
+    margin-right: calc(var(--global-margin) - var(--chat-resize-handle-width) - 1px);
+}
+
+/* Forum header */
+.visual-refresh .container__9293f {
+    border-radius: 10px;
+    border: 1px solid var(--main-color);
+    margin-top: var(--global-margin);
+}
