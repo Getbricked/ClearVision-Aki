@@ -35,6 +35,20 @@
     margin-left: var(--global-margin);
 }
 
+/* ------------------- DIRRECT MESSAGE ------------------- */
+/* Show User Profile */
+.content_f75fb0 .inner_c0bea0 {
+    border-radius: 10px;
+}
+
+.content_f75fb0 .outer_c0bea0 {
+    border-radius: 10px;
+    border: 1px solid var(--main-color);
+    margin-top: var(--global-margin);
+    margin-left: var(--global-margin);
+    height: calc(100% - var(--global-margin) - 2px);
+}
+
 /* ------------------- FRIENDS ------------------- */
 
 /* Friend list */
