@@ -7,6 +7,11 @@
  * @invite dHaSxn3
  */
 
+/* IMPORT SOURCE */
+@import url(https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/Hyprcord/Themes/forum.css);
+@import url(https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/Hyprcord/Themes/nameplate.css);
+@import url(https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/Hyprcord/Themes/server.css);
+
 /* SETTINGS */
 :root {
     /* Tweak in case using ServerColumn addon (only work for 1 column) */
