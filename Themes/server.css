@@ -74,3 +74,20 @@
     border: 1px solid var(--main-color);
     margin: var(--global-margin);
 }
+
+/* ------------------- HOME ------------------- */
+
+/* Friend list */
+.visual-refresh .peopleColumn__133bf {
+    border-radius: 10px;
+    border: 1px solid var(--main-color);
+    margin-top: var(--global-margin);
+    margin-right: var(--global-margin);
+}
+
+/* Now playing */
+.nowPlayingColumn__133bf {
+    border-radius: 10px;
+    border: 1px solid var(--main-color);
+    margin-top: var(--global-margin);
+}
