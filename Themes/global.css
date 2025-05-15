@@ -120,3 +120,28 @@
     border-radius: 10px;
     margin: var(--global-margin);
 }
+
+/* ------------------- IMAGE PREVIEW ------------------- */
+/* Top bar (under windows bar) */
+.topBar__6088c {
+    position: relative;
+    top: calc(var(--global-margin) * 2);
+}
+
+/* Tool buttons */
+.actionButtons_cc1819,
+.closeButton__6088c {
+    border: 1px solid var(--main-color);
+}
+
+/* The picture */
+.mediaArea_e03578 {
+    position: relative;
+    top: calc(var(--global-margin) * 3);
+    border: 1px solid var(--main-color);
+    border-radius: 10px;
+}
+
+.media_a22bfd {
+    border-radius: 10px;
+}
