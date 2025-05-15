@@ -7,6 +7,9 @@
  * @invite dHaSxn3
  */
 
+/* ServerColumns addon */
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css);
+
 /* IMPORT SOURCE (Themes) */
 @import url(https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/Hyprcord/Themes/forum.css);
 @import url(https://raw.githubusercontent.com/Getbricked/ClearVision-Aki/refs/heads/Hyprcord/Themes/nameplate.css);
