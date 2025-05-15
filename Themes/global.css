@@ -1,6 +1,6 @@
 /* ------------------- GLOBAL ------------------- */
 /* Outside margin */
-.visual-refresh .base_c48ade {
+.visual-refresh .layers__960e4 {
     margin: var(--global-margin);
 }
 
@@ -92,4 +92,31 @@
     border: 1px solid var(--main-color);
     margin-top: var(--global-margin);
     height: 100% !important;
+}
+
+/* ------------------- SETTINGS ------------------- */
+/* Sidebar */
+.visual-refresh .sidebarRegion__23e6b {
+    border-radius: 10px;
+    border: 1px solid var(--main-color);
+    margin-right: var(--global-margin);
+}
+
+/* Content */
+.contentRegion__23e6b {
+    border-radius: 10px;
+    border: 1px solid var(--main-color);
+}
+
+/* Global */
+.visual-refresh .standardSidebarView__23e6b {
+    margin-top: calc(var(--global-margin)*3);
+}
+
+/* Top bar */
+#app-mount:has(.show_c38106) .bar_c38106 {
+    border: 1px solid var(--main-color);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: var(--global-margin);
 }
