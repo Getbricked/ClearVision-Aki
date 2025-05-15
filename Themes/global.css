@@ -1,5 +1,5 @@
 /* ------------------- GLOBAL ------------------- */
-/* Global margin */
+/* Global margin (outside margin) */
 .visual-refresh #app-mount .layers__960e4 {
     margin: var(--global-margin);
 }
