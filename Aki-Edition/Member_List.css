@@ -27,12 +27,18 @@
 
 /* Selected user with role color */
 .nameContainer__703b9[style^="color:"]:after {
-    background: linear-gradient(to right, currentColor, transparent);
+    background: linear-gradient(to right, currentColor, transparent) !important;
 }
 
 /* Selected user with no role color */
 .nameContainer__703b9:after {
-    background: linear-gradient(to right, var(--hsl-main-color), transparent);
+    background: linear-gradient(to right, var(--hsl-main-color), transparent) !important;
+}
+
+/* Selected user with gradient color */
+.nameContainer__703b9:has(.threeColorGradient_e5de78):after,
+.nameContainer__703b9:has(.twoColorGradient_e5de78):after {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.6), transparent) !important;
 }
 
 /* Fix tag on username */
