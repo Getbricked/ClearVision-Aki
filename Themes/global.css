@@ -1,7 +1,15 @@
 /* ------------------- GLOBAL ------------------- */
-/* Outside margin (for settings only) */
-.visual-refresh #app-mount:has(.contentRegion__23e6b) .layers__960e4 {
+/* Global margin */
+.visual-refresh #app-mount .layers__960e4 {
     margin: var(--global-margin);
+}
+
+/* Top bar */
+#app-mount .container_c48ade .bar_c38106 {
+    border: 1px solid var(--main-color);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 0px !important;
 }
 
 /* Chat input */
@@ -33,6 +41,11 @@
     margin-top: var(--global-margin);
     border: 1px solid;
     margin-left: var(--global-margin);
+}
+
+/* Ctrl + K (Search bar) */
+.visual-refresh .quickswitcher_ac6cb0 {
+    border: 1px solid var(--main-color);
 }
 
 /* ------------------- DIRRECT MESSAGE ------------------- */
@@ -168,6 +181,7 @@
     margin-top: var(--global-margin);
 }
 
+/* Header */
 .visual-refresh .wrapper_cb9592 .container__9293f {
     border-radius: 10px;
     border: none;

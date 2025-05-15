@@ -77,11 +77,6 @@
     margin: var(--global-margin);
 }
 
-/* Outside margin */
-.visual-refresh .base_c48ade {
-    margin: var(--global-margin);
-}
-
 /* Top bar */
 #app-mount .bar_c38106:not(.show_c38106) {
     border: 1px solid var(--main-color);
