@@ -1,6 +1,6 @@
 /* ------------------- GLOBAL ------------------- */
-/* Outside margin */
-.visual-refresh .layers__960e4 {
+/* Outside margin (for settings only) */
+.visual-refresh #app-mount:has(.show_c38106) .layers__960e4 {
     margin: var(--global-margin);
 }
 
