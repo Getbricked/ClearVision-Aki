@@ -19,7 +19,6 @@
 
 /* Forum Notice */
 .visual-refresh .header__34c2c {
-    background: linear-gradient(to top, var(--main-color), transparent);
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
+    background: linear-gradient(360deg, var(--main-color) -100%, transparent);
+    border-radius: 10px;
 }
