@@ -56,6 +56,7 @@
 /* New chat top bar */
 .visual-refresh .newMessagesBar__0f481 {
     border-radius: 10px;
+    background: linear-gradient(360deg, var(--main-color), transparent);
 }
 
 /* Server Invite link display */

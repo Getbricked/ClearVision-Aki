@@ -57,14 +57,16 @@
 .isExpanded__48112 .folderGroupBackground__48112 {
     background-color: var(--main-color);
     opacity: 0.3;
-}
-
-.folderIcon__48112 {
-    color: var(--main-color);
+    border: 1px solid var(--text-normal);
 }
 
 .folderPreviewWrapper__48112 {
     --custom-preview-background: color-mix(in srgb, var(--main-color), transparent 30%);
+    border: 1px solid var(--text-muted);
+}
+
+.folderIcon__48112 {
+    color: var(--main-color);
 }
 
 /* DM + Channel list */
