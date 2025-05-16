@@ -53,6 +53,11 @@
     margin-bottom: var(--global-margin) !important;
 }
 
+/* Separator between DM and Servers */
+.visual-refresh .guildSeparator__252b6 {
+    background-color: var(--main-color);
+}
+
 /* Server folder */
 .isExpanded__48112 .folderGroupBackground__48112 {
     background-color: var(--main-color);
