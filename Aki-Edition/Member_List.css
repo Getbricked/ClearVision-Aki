@@ -3,15 +3,7 @@
     background: rgba(32, 181, 255, 0.025);
     color: var(--main-color);
     margin: auto;
-
-    /* Set initial border color and width */
-    border-bottom-width: 3px;
-    border-style: solid;
-    border-color: transparent;
-
-    /* Gradient border */
-    border-image: linear-gradient(to right, var(--main-color), var(--main-color));
-    border-image-slice: 1;
+    border-top: 3px solid var(--main-color);
 }
 
 /* Members list */
