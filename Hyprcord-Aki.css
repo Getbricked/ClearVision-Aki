@@ -40,7 +40,7 @@
 :root {
     /* Background image */
     --background-image: url(https://i.imgur.com/zU7YY60.jpeg);
-    --global-margin: 15px;
+    --global-margin: 20px;
     --guildsize: 57;
     --bordersize: 2px;
 }
