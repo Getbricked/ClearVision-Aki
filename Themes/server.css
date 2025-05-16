@@ -1,14 +1,8 @@
 /* ------------------- IN SERVER CHAT ------------------- */
-
-/* Chat */
-.chatContent_f75fb0 {
-    border-radius: 10px;
-    border: 1px solid var(--main-color);
-    margin-top: var(--global-margin);
-}
-
-/* Chat header */
-.visual-refresh .title_f75fb0 {
+/* Chat + Chat header + Member list */
+.chatContent_f75fb0,
+.visual-refresh .title_f75fb0,
+.members_c8ffbb {
     border-radius: 10px;
     border: 1px solid var(--main-color);
     margin-top: var(--global-margin);
@@ -16,25 +10,18 @@
 
 /* Member list */
 .members_c8ffbb {
-    border-radius: 10px;
-    border: 1px solid var(--main-color);
-    margin-top: var(--global-margin);
     margin-left: var(--global-margin);
 }
 
 /* ------------------- SERVER WITH BANNER ------------------- */
-
-.visual-refresh .header_f37cb1 {
+.visual-refresh .header_f37cb1,
+.visual-refresh .bannerVisible_f37cb1 {
     border-radius: 10px;
 }
 
 .visual-refresh .animatedContainer_f37cb1 {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-}
-
-.visual-refresh .bannerVisible_f37cb1 {
-    border-radius: 10px;
 }
 
 .headerEllipseForeground_f37cb1,
@@ -44,7 +31,6 @@
 }
 
 /* ------------------- OUTSIDE SERVER ------------------- */
-
 /* Server list */
 .visual-refresh .scroller_ef3116 {
     border-radius: 10px;
@@ -80,13 +66,6 @@
     border-radius: 10px;
     border: 1px solid var(--main-color);
     margin: var(--global-margin);
-}
-
-/* Top bar */
-#app-mount .bar_c38106:not(.show_c38106) {
-    border: 1px solid var(--main-color);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
 }
 
 /* User panel */
