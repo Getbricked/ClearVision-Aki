@@ -41,10 +41,7 @@
 }
 
 /* Span server list to the bottom */
-nav.guilds_c48ade {
-    margin-bottom: 0 !important;
-}
-
+nav.guilds_c48ade,
 .visual-refresh .scroller_ef3116 {
     margin-bottom: 0 !important;
 }

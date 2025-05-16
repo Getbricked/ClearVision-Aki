@@ -98,7 +98,7 @@
 
 /* Global */
 .visual-refresh .standardSidebarView__23e6b {
-    margin-top: calc(var(--global-margin) * 3);
+    margin-top: calc(var(--global-margin) + var(--custom-app-top-bar-height));
 }
 
 /* Top bar */
