@@ -21,4 +21,5 @@
     /* Tweak in case using ServerColumn addon (only work for 1 column) */
     --columns: 1;
     --global-margin: 20px;
+    --bordersize: 1px;
 }

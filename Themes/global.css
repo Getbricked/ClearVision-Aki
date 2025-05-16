@@ -6,7 +6,7 @@
 
 /* Top bar */
 #app-mount .container_c48ade .bar_c38106 {
-    border: 1px solid var(--main-color);
+    border: var(--bordersize, 1px) solid var(--main-color);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     margin: 0px !important;
@@ -21,7 +21,7 @@
 /* User panel */
 .visual-refresh .panels_c48ade {
     border-radius: 10px;
-    border: 1px solid var(--main-color);
+    border: var(--bordersize, 1px) solid var(--main-color);
     padding: 0px;
     padding-left: 5px;
     padding-right: 5px;
@@ -32,13 +32,13 @@
 .visual-refresh .notice__6e2b9 {
     border-radius: 10px;
     margin-top: var(--global-margin);
-    border: 1px solid;
+    border: var(--bordersize, 1px) solid;
     margin-left: var(--global-margin);
 }
 
 /* Ctrl + K (Search bar) */
 .visual-refresh .quickswitcher_ac6cb0 {
-    border: 1px solid var(--main-color);
+    border: var(--bordersize, 1px) solid var(--main-color);
 }
 
 /* ------------------- DIRRECT MESSAGE ------------------- */
@@ -49,7 +49,7 @@
 
 .content_f75fb0 .outer_c0bea0 {
     border-radius: 10px;
-    border: 1px solid var(--main-color);
+    border: var(--bordersize, 1px) solid var(--main-color);
     margin-top: var(--global-margin);
     margin-left: var(--global-margin);
     height: calc(100% - var(--global-margin) - 2px);
@@ -60,7 +60,7 @@
 .nowPlayingColumn__133bf,
 .visual-refresh .peopleColumn__133bf {
     border-radius: 10px;
-    border: 1px solid var(--main-color);
+    border: var(--bordersize, 1px) solid var(--main-color);
     margin-top: var(--global-margin);
 }
 
@@ -76,7 +76,7 @@
 .mainPageScroller_ca1a02 {
     border-radius: 10px;
     margin-top: var(--global-margin);
-    border: 1px solid var(--main-color);
+    border: var(--bordersize, 1px) solid var(--main-color);
 }
 
 .visual-refresh .shop__6db1d {
@@ -93,7 +93,7 @@
 .contentRegion__23e6b,
 .visual-refresh .sidebarRegion__23e6b {
     border-radius: 10px;
-    border: 1px solid var(--main-color);
+    border: var(--bordersize, 1px) solid var(--main-color);
 }
 
 /* Global */
@@ -103,7 +103,7 @@
 
 /* Top bar */
 #app-mount:has(.show_c38106) .bar_c38106 {
-    border: 1px solid var(--main-color);
+    border: var(--bordersize, 1px) solid var(--main-color);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     margin: var(--global-margin);
@@ -119,14 +119,14 @@
 /* Tool buttons */
 .actionButtons_cc1819,
 .closeButton__6088c {
-    border: 1px solid var(--main-color);
+    border: var(--bordersize, 1px) solid var(--main-color);
 }
 
 /* The picture */
 .mediaArea_e03578 {
     position: relative;
     top: calc(var(--global-margin) * 3);
-    border: 1px solid var(--main-color);
+    border: var(--bordersize, 1px) solid var(--main-color);
     border-radius: 10px;
 }
 
@@ -143,7 +143,7 @@
 
 /* Fullscreen mode */
 .callContainer_cb9592 {
-    border: 1px solid var(--main-color) !important;
+    border: var(--bordersize, 1px) solid var(--main-color) !important;
     border-radius: 8px;
     margin-top: var(--global-margin);
 }
@@ -164,5 +164,5 @@
 .borderRadius__6341f,
 .videoWrapper__6981d {
     border-radius: 8px;
-    border: 1px solid var(--main-color);
+    border: var(--bordersize, 1px) solid var(--main-color);
 }
