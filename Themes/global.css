@@ -28,6 +28,11 @@
     width: calc(100% - var(--global-margin)) !important;
 }
 
+/* Thread full screen */
+.visual-refresh .modal__9a792 {
+    border: var(--bordersize, 1px) solid var(--main-color);
+}
+
 /* Notice */
 .visual-refresh .notice__6e2b9 {
     border-radius: 10px;
