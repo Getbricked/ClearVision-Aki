@@ -40,6 +40,6 @@
 :root {
     /* Background image */
     --background-image: url(https://i.imgur.com/zU7YY60.jpeg);
-    --global-margin: 20px;
+    --global-margin: 15px;
     --guildsize: 57;
 }
