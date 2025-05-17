@@ -28,6 +28,14 @@
     width: calc(100% - var(--global-margin)) !important;
 }
 
+/* Search result panel */
+.visual-refresh .searchResultsWrap_a9e706 {
+    margin-top: var(--global-margin);
+    margin-left: var(--global-margin);
+    border-radius: 10px;
+    border: var(--bordersize, 1px) solid var(--main-color);
+}
+
 /* Thread full screen */
 .visual-refresh .modal__9a792 {
     border: var(--bordersize, 1px) solid var(--main-color);
@@ -170,4 +178,19 @@
 .videoWrapper__6981d {
     border-radius: 8px;
     border: var(--bordersize, 1px) solid var(--main-color);
+}
+
+/* ------------------- VC-SHIKI-CODE ------------------- */
+/* Code Text */
+.visual-refresh .markup__75297 code {
+    border-radius: 10px;
+    border: 1px solid color-mix(in srgb, var(--main-color), transparent 40%);
+    background: color-mix(in srgb, var(--main-color), transparent 95%);
+}
+
+/* Code File */
+.nonVisualMediaItemContainer_f4758a {
+    border-radius: 10px;
+    border: 1px solid color-mix(in srgb, var(--main-color), transparent 40%);
+    background: color-mix(in srgb, var(--main-color), transparent 95%);
 }
