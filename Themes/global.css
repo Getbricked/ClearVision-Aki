@@ -18,6 +18,17 @@
     padding-right: var(--global-margin);
 }
 
+/* Link embed */
+.gridContainer__623de {
+    border: 1px solid var(--main-color);
+    border-radius: 10px;
+    background: var(--card-shading);
+}
+
+.visual-refresh .embedFull__623de {
+    background: transparent;
+}
+
 /* User panel */
 .visual-refresh .panels_c48ade {
     border-radius: 10px;
