@@ -6,9 +6,8 @@
 
 /* Nameplate in user panel */
 .panels_c48ade .container__4bbc6 {
-    border-radius: inherit;
+    border-radius: 8px;
     left: -4px;
-    top: -2px;
     height: 103%;
     width: 103%;
 }
