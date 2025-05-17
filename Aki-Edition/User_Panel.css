@@ -49,4 +49,5 @@ nav.guilds_c48ade,
 /* Nameplate fix */
 .panels_c48ade .container__4bbc6 {
     width: 104.1%;
+    border-top-right-radius: 8px;
 }
