@@ -19,14 +19,10 @@
 }
 
 /* Link embed */
-.gridContainer__623de {
-    border: 1px solid var(--main-color);
+.visual-refresh .embedFull__623de {
+    border: 1px solid var(--main-color) !important;
     border-radius: 10px;
     background: var(--card-shading);
-}
-
-.visual-refresh .embedFull__623de {
-    background: transparent;
 }
 
 /* User panel */
