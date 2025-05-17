@@ -62,6 +62,7 @@
 /* Server Invite link display */
 .guildInviteContainer__083ae {
     background: var(--card-shading);
+    border: 1px solid var(--main-color);
 }
 
 .footerContent__083ae {
