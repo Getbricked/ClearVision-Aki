@@ -15,8 +15,8 @@
 
 /* Mention */
 .mentioned__5126c {
-    --background-mentioned: rgba(255, 229, 84, 0.1);
-    --background-mentioned-hover: rgba(255, 229, 84, 0.1);
+    --background-mentioned: rgba(255, 229, 84, 0.15);
+    --background-mentioned-hover: rgba(255, 229, 84, 0.15);
 }
 
 /* Edit timestamp */
