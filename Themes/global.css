@@ -77,7 +77,7 @@
     border: var(--bordersize, 1px) solid var(--main-color);
     margin-top: var(--global-margin);
     margin-left: var(--global-margin);
-    height: calc(100% - var(--global-margin) - 2px);
+    height: calc(100% - var(--global-margin) - var(--bordersize) * 2);
 }
 
 /* ------------------- FRIENDS ------------------- */
