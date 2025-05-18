@@ -200,9 +200,15 @@
     background: color-mix(in srgb, var(--main-color), transparent 95%);
 }
 
-/* Code File */
+/* Media item */
 .nonVisualMediaItem_f4758a {
     border-radius: 10px;
     border: 1px solid color-mix(in srgb, var(--main-color), transparent 40%);
     background: color-mix(in srgb, var(--main-color), transparent 95%);
+}
+
+/* Voice message */
+.rippleContainer_a8e786 {
+    border-radius: 10px;
+    border: none;
 }
