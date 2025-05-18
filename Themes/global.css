@@ -23,13 +23,6 @@
     padding-left: calc(var(--global-margin) - var(--space-xs));
 }
 
-/* Link embed */
-.visual-refresh .embedFull__623de {
-    border: 1px solid var(--main-color) !important;
-    border-radius: 10px;
-    background: var(--card-shading);
-}
-
 /* User panel */
 .visual-refresh .panels_c48ade {
     border-radius: 10px;
@@ -192,8 +185,8 @@
     border: var(--bordersize, 1px) solid var(--main-color);
 }
 
-/* ------------------- VC-SHIKI-CODE ------------------- */
-/* Code Text */
+/* ------------------- EMBED ------------------- */
+/* VC Shiki Code */
 .visual-refresh .markup__75297 code {
     border-radius: 10px;
     border: 1px solid color-mix(in srgb, var(--main-color), transparent 40%);
@@ -211,4 +204,11 @@
 .rippleContainer_a8e786 {
     border-radius: 10px;
     border: none;
+}
+
+/* Link embed */
+.visual-refresh .embedFull__623de {
+    border: 1px solid var(--main-color) !important;
+    border-radius: 10px;
+    background: var(--card-shading);
 }
