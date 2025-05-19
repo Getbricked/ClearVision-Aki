@@ -239,7 +239,7 @@
 /* VC Shiki Code */
 .visual-refresh .markup__75297 code {
     border-radius: 10px;
-    border: var(--bordersize, 1px) solid color-mix(in srgb, var(--main-color), transparent 40%);
+    border: var(--border);
     background: color-mix(in srgb, var(--main-color), transparent 95%);
 }
 
