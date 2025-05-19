@@ -63,7 +63,7 @@
 /* Upload attachment in chat input */
 .upload_aa605f {
     border-radius: 10px;
-    border: 2px solid var(--main-color) !important;
+    border: var(--bordersize, 1px) solid var(--main-color) !important;
 }
 
 /* ------------------- DIRRECT MESSAGE ------------------- */
