@@ -60,6 +60,12 @@
     margin-left: var(--global-margin);
 }
 
+/* Upload attachment in chat input */
+.upload_aa605f {
+    border-radius: 10px;
+    border: 2px solid var(--main-color) !important;
+}
+
 /* ------------------- DIRRECT MESSAGE ------------------- */
 /* Show User Profile */
 .content_f75fb0 .inner_c0bea0 {
