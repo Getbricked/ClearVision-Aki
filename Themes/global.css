@@ -153,7 +153,7 @@
     border-radius: 10px;
 }
 
-/* ------------------- DM VOICE CALL ------------------- */
+/* ------------------- VOICE CALL ------------------- */
 /* Title */
 .visual-refresh .wrapper_cb9592 .title_f75fb0 {
     border: none;
@@ -186,18 +186,40 @@
     border: var(--bordersize, 1px) solid var(--main-color);
 }
 
+/* Stage */
+.chat_f75fb0 {
+    margin-top: var(--global-margin);
+    border-radius: 10px;
+    border: var(--bordersize, 1px) solid var(--main-color) !important;
+
+}
+
+.container__9aed4 {
+    margin-top: calc(2 * var(--global-margin));
+    border-radius: 10px;
+    border: var(--bordersize, 1px) solid var(--main-color);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tileContainer__71eb2 {
+    margin-top: calc(var(--global-margin) / 2);
+    border-radius: 10px;
+    border: var(--bordersize, 1px) solid var(--main-color);
+}
+
 /* ------------------- EMBED ------------------- */
 /* VC Shiki Code */
 .visual-refresh .markup__75297 code {
     border-radius: 10px;
-    border: 2px solid color-mix(in srgb, var(--main-color), transparent 40%);
+    border: var(--bordersize, 1px) solid color-mix(in srgb, var(--main-color), transparent 40%);
     background: color-mix(in srgb, var(--main-color), transparent 95%);
 }
 
 /* Media item */
 .nonVisualMediaItem_f4758a {
     border-radius: 10px;
-    border: 2px solid color-mix(in srgb, var(--main-color), transparent 40%);
+    border: var(--bordersize, 1px) solid color-mix(in srgb, var(--main-color), transparent 40%);
     background: color-mix(in srgb, var(--main-color), transparent 95%);
 }
 
@@ -209,7 +231,7 @@
 
 /* Link embed */
 .visual-refresh .embedFull__623de {
-    border: 2px solid var(--main-color) !important;
+    border: var(--bordersize, 1px) solid var(--main-color) !important;
     border-radius: 10px;
     background: var(--card-shading);
 }
@@ -217,12 +239,12 @@
 /* Discord embed */
 .visual-refresh .wrapper_d5f3cd {
     border-radius: 10px;
-    border: 2px solid var(--main-color);
+    border: var(--bordersize, 1px) solid var(--main-color);
 }
 
 /* Image in grid */
 .mosaicItem__6c706 {
-    border: 2px solid var(--main-color) !important;
+    border: var(--bordersize, 1px) solid var(--main-color) !important;
     box-sizing: border-box !important;
     border-radius: 10px;
 }
@@ -234,13 +256,13 @@
 
 /* Imagine inline and in grid */
 .inlineMediaEmbed__623de .originalLink_af017a {
-    border: 2px solid var(--main-color) !important;
+    border: var(--bordersize, 1px) solid var(--main-color) !important;
     box-sizing: border-box !important;
     border-radius: 10px;
 }
 
 #message-accessories-1373888810101899285 .originalLink_af017a {
-    border: 2px solid var(--main-color) !important;
+    border: var(--bordersize, 1px) solid var(--main-color) !important;
     box-sizing: border-box !important;
     border-radius: 10px;
 }
