@@ -134,7 +134,7 @@
     margin: var(--global-margin);
 }
 
-/* ------------------- IMAGE PREVIEW ------------------- */
+/* ------------------- MEDIA PREVIEW ------------------- */
 /* Top bar (under windows bar) */
 .topBar__6088c {
     position: relative;
@@ -156,6 +156,11 @@
 }
 
 .media_a22bfd {
+    border-radius: 10px;
+}
+
+/* Image Preview */
+.mediaArea_e03578 img {
     border-radius: 10px;
 }
 
