@@ -164,6 +164,13 @@
     border-radius: 10px;
 }
 
+/* Tag server preview + Emoji server preview */
+.container__86bf6,
+.visual-refresh .popoutContainer__0f481 {
+    border: var(--bordersize, 1px) solid var(--main-color);
+}
+
+
 /* ------------------- VOICE CALL ------------------- */
 /* Title */
 .visual-refresh .wrapper_cb9592 .title_f75fb0 {
