@@ -1,4 +1,9 @@
 /* ------------------- GLOBAL ------------------- */
+/* Define border var */
+#app-mount {
+    --border: var(--bordersize, 1px) solid var(--main-color);
+}
+
 /* Global margin (outside margin) */
 .visual-refresh #app-mount .layers__960e4 {
     margin: var(--global-margin);
@@ -6,7 +11,7 @@
 
 /* Top bar */
 #app-mount .container_c48ade .bar_c38106 {
-    border: var(--bordersize, 1px) solid var(--main-color);
+    border: var(--border);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     margin: 0px !important;
@@ -15,7 +20,7 @@
 /* User panel */
 .visual-refresh .panels_c48ade {
     border-radius: 10px;
-    border: var(--bordersize, 1px) solid var(--main-color);
+    border: var(--border);
     padding: 0px;
     padding-left: 5px;
     padding-right: 5px;
@@ -24,12 +29,12 @@
 
 /* Ctrl + K (Search bar) */
 .visual-refresh .quickswitcher_ac6cb0 {
-    border: var(--bordersize, 1px) solid var(--main-color);
+    border: var(--border);
 }
 
 /* Border user profile */
 .outer_c0bea0 {
-    border: var(--bordersize, 1px) solid var(--main-color);
+    border: var(--border);
 }
 
 /* ------------------- CHAT ------------------- */
@@ -49,12 +54,12 @@
     margin-top: var(--global-margin);
     margin-left: var(--global-margin);
     border-radius: 10px;
-    border: var(--bordersize, 1px) solid var(--main-color);
+    border: var(--border);
 }
 
 /* Thread full screen */
 .visual-refresh .modal__9a792 {
-    border: var(--bordersize, 1px) solid var(--main-color);
+    border: var(--border);
 }
 
 /* Notice */
@@ -68,7 +73,7 @@
 /* Upload attachment in chat input */
 .upload_aa605f {
     border-radius: 10px;
-    border: var(--bordersize, 1px) solid var(--main-color) !important;
+    border: var(--border) !important;
 }
 
 /* ------------------- DIRRECT MESSAGE ------------------- */
@@ -79,7 +84,7 @@
 
 .content_f75fb0 .outer_c0bea0 {
     border-radius: 10px;
-    border: var(--bordersize, 1px) solid var(--main-color);
+    border: var(--border);
     margin-top: var(--global-margin);
     margin-left: var(--global-margin);
     height: calc(100% - var(--global-margin) - var(--bordersize) * 2);
@@ -90,7 +95,7 @@
 .nowPlayingColumn__133bf,
 .visual-refresh .peopleColumn__133bf {
     border-radius: 10px;
-    border: var(--bordersize, 1px) solid var(--main-color);
+    border: var(--border);
     margin-top: var(--global-margin);
 }
 
@@ -106,7 +111,7 @@
 .mainPageScroller_ca1a02 {
     border-radius: 10px;
     margin-top: var(--global-margin);
-    border: var(--bordersize, 1px) solid var(--main-color);
+    border: var(--border);
 }
 
 .visual-refresh .shop__6db1d {
@@ -123,7 +128,7 @@
 .contentRegion__23e6b,
 .visual-refresh .sidebarRegion__23e6b {
     border-radius: 10px;
-    border: var(--bordersize, 1px) solid var(--main-color);
+    border: var(--border);
 }
 
 /* Global */
@@ -133,7 +138,7 @@
 
 /* Top bar */
 #app-mount:has(.show_c38106) .bar_c38106 {
-    border: var(--bordersize, 1px) solid var(--main-color);
+    border: var(--border);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     margin: var(--global-margin);
@@ -149,14 +154,14 @@
 /* Tool buttons */
 .actionButtons_cc1819,
 .closeButton__6088c {
-    border: var(--bordersize, 1px) solid var(--main-color);
+    border: var(--border);
 }
 
 /* The picture */
 .mediaArea_e03578 {
     position: relative;
     top: calc(var(--global-margin) * 3);
-    border: var(--bordersize, 1px) solid var(--main-color);
+    border: var(--border);
     border-radius: 10px;
 }
 
@@ -172,7 +177,7 @@
 /* Tag server preview + Emoji server preview */
 .container__86bf6,
 .visual-refresh .popoutContainer__0f481 {
-    border: var(--bordersize, 1px) solid var(--main-color);
+    border: var(--border);
 }
 
 
@@ -185,7 +190,7 @@
 
 /* Fullscreen mode */
 .callContainer_cb9592 {
-    border: var(--bordersize, 1px) solid var(--main-color) !important;
+    border: var(--border) !important;
     border-radius: 8px;
     margin-top: var(--global-margin);
 }
@@ -206,20 +211,20 @@
 .borderRadius__6341f,
 .videoWrapper__6981d {
     border-radius: 8px;
-    border: var(--bordersize, 1px) solid var(--main-color);
+    border: var(--border);
 }
 
 /* Stage */
 .chat_f75fb0:has(.container__9aed4) {
     margin-top: var(--global-margin);
     border-radius: 10px;
-    border: var(--bordersize, 1px) solid var(--main-color) !important;
+    border: var(--border) !important;
 }
 
 .container__9aed4 {
     margin-top: calc(2 * var(--global-margin));
     border-radius: 10px;
-    border: var(--bordersize, 1px) solid var(--main-color);
+    border: var(--border);
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -227,7 +232,7 @@
 .tileContainer__71eb2 {
     margin-top: calc(var(--global-margin) / 2);
     border-radius: 10px;
-    border: var(--bordersize, 1px) solid var(--main-color);
+    border: var(--border);
 }
 
 /* ------------------- EMBED ------------------- */
@@ -253,7 +258,7 @@
 
 /* Link embed */
 .visual-refresh .embedFull__623de {
-    border: var(--bordersize, 1px) solid var(--main-color) !important;
+    border: var(--border) !important;
     border-radius: 10px;
     background: var(--card-shading);
 }
@@ -261,12 +266,12 @@
 /* Discord embed */
 .visual-refresh .wrapper_d5f3cd {
     border-radius: 10px;
-    border: var(--bordersize, 1px) solid var(--main-color);
+    border: var(--border);
 }
 
 /* Image in grid */
 .mosaicItem__6c706 {
-    border: var(--bordersize, 1px) solid var(--main-color) !important;
+    border: var(--border) !important;
     box-sizing: border-box !important;
     border-radius: 10px;
 }
@@ -278,13 +283,13 @@
 
 /* Imagine inline and in grid */
 .inlineMediaEmbed__623de .originalLink_af017a {
-    border: var(--bordersize, 1px) solid var(--main-color) !important;
+    border: var(--border) !important;
     box-sizing: border-box !important;
     border-radius: 10px;
 }
 
 #message-accessories-1373888810101899285 .originalLink_af017a {
-    border: var(--bordersize, 1px) solid var(--main-color) !important;
+    border: var(--border) !important;
     box-sizing: border-box !important;
     border-radius: 10px;
 }

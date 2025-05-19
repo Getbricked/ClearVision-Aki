@@ -4,7 +4,7 @@
 .visual-refresh .title_f75fb0,
 .members_c8ffbb {
     border-radius: 10px;
-    border: var(--bordersize, 1px) solid var(--main-color);
+    border: var(--border);
     margin-top: var(--global-margin);
 }
 
@@ -34,7 +34,7 @@
 /* Server list */
 .visual-refresh .scroller_ef3116 {
     border-radius: 10px;
-    border: var(--bordersize, 1px) solid var(--main-color) !important;
+    border: var(--border) !important;
     margin-top: var(--global-margin) !important;
 }
 
@@ -61,6 +61,6 @@
 .visual-refresh .privateChannels__35e86,
 .visual-refresh .container__2637a {
     border-radius: 10px;
-    border: var(--bordersize, 1px) solid var(--main-color);
+    border: var(--border);
     margin: var(--global-margin);
 }

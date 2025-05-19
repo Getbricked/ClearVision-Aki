@@ -1,7 +1,7 @@
 /* Forum */
 .visual-refresh .container_f369db {
     border-radius: 10px;
-    border: var(--bordersize, 1px) solid var(--main-color);
+    border: var(--border);
     margin-top: var(--global-margin);
 }
 
@@ -13,7 +13,7 @@
 /* Forum header */
 .visual-refresh .container__9293f {
     border-radius: 10px;
-    border: var(--bordersize, 1px) solid var(--main-color);
+    border: var(--border);
     margin-top: var(--global-margin);
 }
 
