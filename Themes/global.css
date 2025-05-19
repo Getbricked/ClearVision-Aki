@@ -12,6 +12,22 @@
     margin: 0px !important;
 }
 
+/* User panel */
+.visual-refresh .panels_c48ade {
+    border-radius: 10px;
+    border: var(--bordersize, 1px) solid var(--main-color);
+    padding: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: calc(100% - var(--global-margin)) !important;
+}
+
+/* Ctrl + K (Search bar) */
+.visual-refresh .quickswitcher_ac6cb0 {
+    border: var(--bordersize, 1px) solid var(--main-color);
+}
+
+/* ------------------- CHAT ------------------- */
 /* Chat input */
 .visual-refresh .form_f75fb0 {
     padding-left: var(--global-margin);
@@ -21,16 +37,6 @@
 /* Chat contents */
 .scrollerInner__36d07 {
     padding-left: calc(var(--global-margin) - var(--space-xs));
-}
-
-/* User panel */
-.visual-refresh .panels_c48ade {
-    border-radius: 10px;
-    border: var(--bordersize, 1px) solid var(--main-color);
-    padding: 0px;
-    padding-left: 5px;
-    padding-right: 5px;
-    width: calc(100% - var(--global-margin)) !important;
 }
 
 /* Search result panel */
@@ -52,11 +58,6 @@
     margin-top: var(--global-margin);
     border: var(--bordersize, 1px) solid;
     margin-left: var(--global-margin);
-}
-
-/* Ctrl + K (Search bar) */
-.visual-refresh .quickswitcher_ac6cb0 {
-    border: var(--bordersize, 1px) solid var(--main-color);
 }
 
 /* ------------------- DIRRECT MESSAGE ------------------- */
@@ -189,14 +190,14 @@
 /* VC Shiki Code */
 .visual-refresh .markup__75297 code {
     border-radius: 10px;
-    border: 1px solid color-mix(in srgb, var(--main-color), transparent 40%);
+    border: 2px solid color-mix(in srgb, var(--main-color), transparent 40%);
     background: color-mix(in srgb, var(--main-color), transparent 95%);
 }
 
 /* Media item */
 .nonVisualMediaItem_f4758a {
     border-radius: 10px;
-    border: 1px solid color-mix(in srgb, var(--main-color), transparent 40%);
+    border: 2px solid color-mix(in srgb, var(--main-color), transparent 40%);
     background: color-mix(in srgb, var(--main-color), transparent 95%);
 }
 
@@ -208,7 +209,38 @@
 
 /* Link embed */
 .visual-refresh .embedFull__623de {
-    border: 1px solid var(--main-color) !important;
+    border: 2px solid var(--main-color) !important;
     border-radius: 10px;
     background: var(--card-shading);
+}
+
+/* Discord embed */
+.visual-refresh .wrapper_d5f3cd {
+    border-radius: 10px;
+    border: 2px solid var(--main-color);
+}
+
+/* Image in grid */
+.mosaicItem__6c706 {
+    border: 2px solid var(--main-color) !important;
+    box-sizing: border-box !important;
+    border-radius: 10px;
+}
+
+/* Image global */
+.embedMedia__623de {
+    border-radius: 10px;
+}
+
+/* Imagine inline and in grid */
+.inlineMediaEmbed__623de .originalLink_af017a {
+    border: 2px solid var(--main-color) !important;
+    box-sizing: border-box !important;
+    border-radius: 10px;
+}
+
+#message-accessories-1373888810101899285 .originalLink_af017a {
+    border: 2px solid var(--main-color) !important;
+    box-sizing: border-box !important;
+    border-radius: 10px;
 }
