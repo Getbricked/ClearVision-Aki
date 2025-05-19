@@ -22,3 +22,9 @@
     background: linear-gradient(360deg, var(--main-color) -100%, transparent);
     border-radius: 10px;
 }
+
+/* Pinned thread in forum */
+.chatHeaderBar_a5700d {
+    border-radius: 10px;
+    background: color-mix(in srgb, var(--main-color) 30%, transparent);
+}

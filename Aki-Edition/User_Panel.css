@@ -22,7 +22,7 @@
 }
 
 /* Old User Panel */
-.content_c48ade .panels_c48ade {
+.visual-refresh .panels_c48ade {
     width: calc(100% - 2 * var(--global-margin) - 1px * var(--guildsize) - 2 * calc(10px * var(--guildsize) / 50)) !important;
     left: calc(var(--global-margin) + 1px * var(--guildsize) + 2 * calc(10px * var(--guildsize) / 50)) !important;
 }
