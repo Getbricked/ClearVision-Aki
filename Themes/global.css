@@ -27,6 +27,11 @@
     border: var(--bordersize, 1px) solid var(--main-color);
 }
 
+/* Border user profile */
+.outer_c0bea0 {
+    border: var(--bordersize, 1px) solid var(--main-color);
+}
+
 /* ------------------- CHAT ------------------- */
 /* Chat input */
 .visual-refresh .form_f75fb0 {
