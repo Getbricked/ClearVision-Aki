@@ -207,7 +207,7 @@
     border: none;
 }
 
-/* Picture in picture + Fullscreen mode*/
+/* Picture in picture + Fullscreen mode */
 .borderRadius__6341f,
 .videoWrapper__6981d {
     border-radius: 8px;
@@ -246,6 +246,7 @@
 /* Media item */
 .nonVisualMediaItem_f4758a {
     background: color-mix(in srgb, var(--main-color), transparent 80%);
+    border-radius: 10px;
 }
 
 /* Voice message */
