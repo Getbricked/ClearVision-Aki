@@ -187,11 +187,10 @@
 }
 
 /* Stage */
-.chat_f75fb0 {
+.chat_f75fb0:has(.container__9aed4) {
     margin-top: var(--global-margin);
     border-radius: 10px;
     border: var(--bordersize, 1px) solid var(--main-color) !important;
-
 }
 
 .container__9aed4 {
