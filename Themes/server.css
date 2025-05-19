@@ -65,13 +65,3 @@
     border: var(--bordersize, 1px) solid var(--main-color);
     margin: var(--global-margin);
 }
-
-/* User panel */
-.visual-refresh .panels_c48ade {
-    border-radius: 10px;
-    border: var(--bordersize, 1px) solid var(--main-color);
-    padding: 0px;
-    padding-left: 5px;
-    padding-right: 5px;
-    width: calc(100% - var(--global-margin)) !important;
-}
