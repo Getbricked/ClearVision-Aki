@@ -254,6 +254,18 @@
     border: var(--border);
 }
 
+/* Soundboard */
+.picker__09f65 {
+    border-radius: 10px;
+    border: var(--border);
+}
+
+/* Activities + Screen Share */
+.visual-refresh .root__49fc1 {
+    border-radius: 10px;
+    border: var(--border);
+}
+
 /* ------------------- EMBED ------------------- */
 /* VC Shiki Code */
 .visual-refresh .markup__75297 code {
