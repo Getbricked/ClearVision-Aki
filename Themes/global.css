@@ -44,6 +44,25 @@
     padding-right: var(--global-margin);
 }
 
+/* Right click on msg */
+.menu_c1e9c4 {
+    border-radius: 10px;
+    border: var(--border) !important;
+}
+
+/* On hover msg */
+.message__5126c.selected__5126c .buttonsInner__5126c,
+.mouse-mode .message__5126c:hover .buttonsInner__5126c {
+    border: var(--border);
+    border-radius: 10px;
+}
+
+/* Emoji + GIF + Stickers Box */
+.visual-refresh .contentWrapper__08434 {
+    border: var(--border);
+    border-radius: 10px;
+}
+
 /* Chat contents */
 .scrollerInner__36d07 {
     padding-left: calc(var(--global-margin) - var(--space-xs));
