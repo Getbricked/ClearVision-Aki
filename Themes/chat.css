@@ -55,3 +55,16 @@
     border-radius: 10px;
     border: var(--border) !important;
 }
+
+/* Thread in chat */
+#popout_452 {
+    border-radius: 10px;
+    border: var(--border);
+}
+
+/* Pinned message */
+#popout_454,
+#popout_1044 {
+    border-radius: 10px;
+    border: var(--border);
+}

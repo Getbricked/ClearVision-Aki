@@ -1,4 +1,4 @@
-/* ------------------- IN SERVER CHAT ------------------- */
+/* ------------------- IN SERVER ------------------- */
 /* Chat + Chat header + Member list */
 .chatContent_f75fb0,
 .visual-refresh .title_f75fb0,
@@ -11,6 +11,26 @@
 /* Member list */
 .members_c8ffbb {
     margin-left: var(--global-margin);
+}
+
+/* Members */
+.visual-refresh .mainTableContainer__09a38 {
+    border-radius: 10px;
+    border: var(--border);
+}
+
+/* Server Guide */
+.background__7449f :is(.scrollerBase_d125d2) {
+    border-radius: 10px;
+    border: var(--border);
+    margin-top: var(--global-margin);
+}
+
+/* Channels and roles */
+.visual-refresh .container__0b563 {
+    border-radius: 10px;
+    border: var(--border);
+    margin-top: var(--global-margin);
 }
 
 /* ------------------- SERVER WITH BANNER ------------------- */
