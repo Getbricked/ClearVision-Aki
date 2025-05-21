@@ -50,3 +50,9 @@
 .outer_c0bea0 {
     border: var(--border);
 }
+
+/* Inbox (on top bar) */
+#popout_67 {
+    border-radius: 10px;
+    border: var(--border);
+}
