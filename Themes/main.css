@@ -60,7 +60,7 @@
   --code-font: Menlo, "gg mono", "Liberation Mono", Consolas Courier, monospace;
 
   /* CHANNELS */
-  --channel-normal: var(--interactive-normal);
+  --channel-normal: rgb(218, 218, 218);
   --channel-muted: var(--interactive-muted);
   --channel-hover: var(--interactive-hover);
   --channel-selected: var(--interactive-active);
