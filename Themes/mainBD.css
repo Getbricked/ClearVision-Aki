@@ -40,7 +40,7 @@
     --background-filter: saturate(calc(var(--saturation-factor, 1) * 1));
 
     /* USER POPOUT */
-    --user-popout-image: var(--background-image);
+    --user-popout-image: transparent;
     --user-popout-position: var(--background-position);
     --user-popout-size: var(--background-size);
     --user-popout-attachment: var(--background-attachment);

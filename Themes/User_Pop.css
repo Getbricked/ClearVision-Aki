@@ -50,6 +50,6 @@
 } */
 
 /* Transparent user pop */
-.user-profile-popout:not(.custom-user-profile-theme)::before {
+/* .user-profile-popout:not(.custom-user-profile-theme)::before {
     background: transparent;
-}
+} */
