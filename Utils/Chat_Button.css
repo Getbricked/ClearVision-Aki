@@ -1,6 +1,8 @@
 /* Hide "Send a gift" button */
 .buttons__74017[aria-label="Send a gift"],
 button[aria-label="Send a gift"],
+.container_c0c49a, 
+.iconContainer_c0c49a,
 /* Hide apps button */
 .visual-refresh .channelAppLauncher_e6e74f {
     display: none !important;
