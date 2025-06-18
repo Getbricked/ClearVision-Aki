@@ -61,9 +61,18 @@
 /* --------------------------- SPECIFIC NAMEPLATE --------------------------- */
 .theme-dark {
 
-    /* ------- Twilight ------- */
+    /* ------- Twilight + Sword of Legend + Sun and Moon + Blue Mana ------- */
     .container__4bbc6:has(.videoContainer__4bbc6 video[src$="twilight/asset.webm"]),
-    .container__4bbc6:has(img[src$="twilight/static.png"]) {
+    .container__4bbc6:has(img[src$="twilight/static.png"]),
+
+    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="sword_of_legend/asset.webm"]),
+    .container__4bbc6:has(img[src$="sword_of_legend/static.png"]),
+
+    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="sun_and_moon/asset.webm"]),
+    .container__4bbc6:has(img[src$="sun_and_moon/static.png"]),
+
+    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="blue_mana/asset.webm"]),
+    .container__4bbc6:has(img[src$="blue_mana/static.png"]) {
         background: linear-gradient(270deg, rgba(1, 49, 194, 0.1) 0%, rgba(1, 49, 194, 0.4) 100%) !important;
     }
 
@@ -72,22 +81,34 @@
         opacity: 0.8;
     }
 
-    /* ------- Cherry blossoms ------- */
+    /* ------- Cherry blossoms + Oasis + Cozy Cat ------- */
     .container__4bbc6:has(.videoContainer__4bbc6 video[src$="cherry_blossoms/asset.webm"]),
-    .container__4bbc6:has(img[src$="cherry_blossoms/static.png"]) {
+    .container__4bbc6:has(img[src$="cherry_blossoms/static.png"]),
+
+    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="oasis/asset.webm"]),
+    .container__4bbc6:has(img[src$="oasis/static.png"]),
+
+    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="cozy_cat/asset.webm"]),
+    .container__4bbc6:has(img[src$="cozy_cat/static.png"]) {
         background: linear-gradient(270deg, rgba(137, 58, 153, 0.1) 0%, rgba(137, 58, 153, 0.4) 100%) !important;
     }
 
-    /* ------- Spririt of spring + Koi pond ------- */
+    /* ------- Spririt of spring + Koi pond + Touch Grass + Under the Sea ------- */
     .container__4bbc6:has(.videoContainer__4bbc6 video[src$="spirit_of_spring/asset.webm"]),
     .container__4bbc6:has(img[src$="spirit_of_spring/static.png"]),
 
     .container__4bbc6:has(.videoContainer__4bbc6 video[src$="koi_pond/asset.webm"]),
-    .container__4bbc6:has(img[src$="koi_pond/static.png"]) {
+    .container__4bbc6:has(img[src$="koi_pond/static.png"]),
+
+    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="touch_grass/asset.webm"]),
+    .container__4bbc6:has(img[src$="touch_grass/static.png"]),
+
+    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="under_the_sea/asset.webm"]),
+    .container__4bbc6:has(img[src$="under_the_sea/static.png"]) {
         background: linear-gradient(270deg, rgba(0, 128, 183, 0.1) 0%, rgba(0, 128, 183, 0.4) 100%) !important;
     }
 
-    /* ------- Cityscape + Cat beans + Vengeance ------- */
+    /* ------- Cityscape + Cat beans + Vengeance + Black Mana + Glitch + Spirit Moon ------- */
     .container__4bbc6:has(.videoContainer__4bbc6 video[src$="cityscape/asset.webm"]),
     .container__4bbc6:has(img[src$="cityscape/static.png"]),
 
@@ -95,14 +116,55 @@
     .container__4bbc6:has(img[src$="cat_beans/static.png"]),
 
     .container__4bbc6:has(.videoContainer__4bbc6 video[src$="vengeance/asset.webm"]),
-    .container__4bbc6:has(img[src$="vengeance/static.png"]) {
+    .container__4bbc6:has(img[src$="vengeance/static.png"]),
+
+    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="black_mana/asset.webm"]),
+    .container__4bbc6:has(img[src$="black_mana/static.png"]),
+
+    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="glitch/asset.webm"]),
+    .container__4bbc6:has(img[src$="glitch/static.png"]),
+
+    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="spirit_moon/asset.webm"]),
+    .container__4bbc6:has(img[src$="spirit_moon/static.png"]) {
         background: linear-gradient(270deg, rgba(115, 11, 200, 0.1) 0%, rgba(115, 11, 200, 0.4) 100%) !important;
     }
 
-    /* ------- Angels ------- */
+    /* ------- Angels + Bonsai + Pixie Dust ------- */
     .container__4bbc6:has(.videoContainer__4bbc6 video[src$="angels/asset.webm"]),
-    .container__4bbc6:has(img[src$="angels/static.png"]) {
+    .container__4bbc6:has(img[src$="angels/static.png"]),
+
+    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="bonsai/asset.webm"]),
+    .container__4bbc6:has(img[src$="bonsai/static.png"]),
+
+    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="pixie_dust/asset.webm"]),
+    .container__4bbc6:has(img[src$="pixie_dust/static.png"]) {
         background: linear-gradient(270deg, rgba(220, 62, 151, 0.1) 0%, rgba(220, 62, 151, 0.4) 100%) !important;
     }
 
+    /* ------- Aurora + Starfall Tides ------- */
+    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="aurora/asset.webm"]),
+    .container__4bbc6:has(img[src$="aurora/static.png"]),
+
+    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="starfall_tides/asset.webm"]),
+    .container__4bbc6:has(img[src$="starfall_tides/static.png"]) {
+        background: linear-gradient(270deg, rgba(8, 100, 96, 0.1) 0%, rgba(8, 100, 96, 0.4) 100%) !important;
+    }
+
+    /* ------- White Mana ------- */
+    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="white_mana/asset.webm"]),
+    .container__4bbc6:has(img[src$="white_mana/static.png"]) {
+        background: linear-gradient(270deg, rgba(220, 62, 151, 0.1) 0%, rgba(220, 62, 151, 0.4) 100%) !important;
+    }
+
+    /* ------- Red Mana ------- */
+    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="red_mana/asset.webm"]),
+    .container__4bbc6:has(img[src$="red_mana/static.png"]) {
+        background: linear-gradient(270deg, rgba(144, 0, 7, 0.1) 0%, rgba(144, 0, 7, 0.4) 100%) !important;
+    }
+
+    /* ------- Green Mana ------- */
+    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="green_mana/asset.webm"]),
+    .container__4bbc6:has(img[src$="green_mana/static.png"]) {
+        background: linear-gradient(270deg, rgba(4, 123, 32, 0.1) 0%, rgba(4, 123, 32, 0.4) 100%) !important;
+    }
 }
