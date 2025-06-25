@@ -76,11 +76,6 @@
         background: linear-gradient(270deg, rgba(1, 49, 194, 0.1) 0%, rgba(1, 49, 194, 0.4) 100%) !important;
     }
 
-    /* Dim User Panel a bit (this nameplate a bit too bright) */
-    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="twilight/asset.webm"]) .img__4bbc6.account__4bbc6 {
-        opacity: 0.8;
-    }
-
     /* ------- Cherry blossoms + Oasis + Cozy Cat ------- */
     .container__4bbc6:has(.videoContainer__4bbc6 video[src$="cherry_blossoms/asset.webm"]),
     .container__4bbc6:has(img[src$="cherry_blossoms/static.png"]),
