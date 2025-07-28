@@ -2,10 +2,10 @@
 .membersWrap_c8ffbb {
   position: relative;
   margin-left: -190px;
-  left: 190px;
+  transform: translateX(190px);
+  transition: transform 0.5s ease-out;
   &:is(:hover, :focus-within) {
-    transform: translateX(-190px);
-    transition: transform 0.2s ease-out;
+    transform: translateX(0);
     margin-left: 0;
   }
 }
