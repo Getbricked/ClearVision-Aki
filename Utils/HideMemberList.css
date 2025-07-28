@@ -1,0 +1,14 @@
+.membersWrap_c8ffbb {
+  position: relative;
+  margin-left: calc(-190px * var(--is-enabled));
+  transform: translateX(calc(190px * var(--is-enabled)));
+  transition: transform calc(0.2s * var(--is-enabled)) ease-out;
+  &:is(:hover, :focus-within) {
+    transform: translateX(0);
+    margin-left: 0;
+  }
+}
+
+:root {
+    --is-enabled: 1;
+}
