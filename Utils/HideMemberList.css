@@ -1,15 +1,11 @@
 /* Member list span on hover (thank you Leo and Leafy for helping 🙏) */
 .membersWrap_c8ffbb {
   position: relative;
-  margin-left: calc(-190px * var(--is-enabled));
-  transform: translateX(calc(190px * var(--is-enabled)));
-  transition: transform calc(0.2s * var(--is-enabled)) ease-out;
+  margin-left: -190px;
+  left: 190px;
   &:is(:hover, :focus-within) {
-    transform: translateX(0);
+    transform: translateX(-190px);
+    transition: transform 0.2s ease-out;
     margin-left: 0;
   }
-}
-
-:root {
-    --is-enabled: 1;
 }
