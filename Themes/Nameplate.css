@@ -162,4 +162,10 @@
     .container__4bbc6:has(img[src$="green_mana/static.png"]) {
         background: linear-gradient(270deg, rgba(4, 123, 32, 0.1) 0%, rgba(4, 123, 32, 0.4) 100%) !important;
     }
+
+    /* --------- Moonlit Charm ----------- */
+    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="moonlit_charm/asset.webm"]),
+    .container__4bbc6:has(img[src$="moonlit_charm/static.png"]) {
+        background: linear-gradient(270deg, rgba(1, 49, 194, 0.1) 0%, rgba(1, 49, 194, 0.4) 100%) !important;
+    }
 }
