@@ -123,7 +123,7 @@
 
 /* WINDOWS TOP BAR */
 .title_c38106 {
-  background: rgba(0, 0, 0, 0.3);
+  background: transparent;
   box-shadow: 0 0 0px rgba(0, 0, 0, 0);
   border-radius: 10px;
 }
