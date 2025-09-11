@@ -69,7 +69,7 @@
     --channel-unread-hover: var(--hover-color);
 
     /* SERVER COLUMNS */
-    --columns: 2;
+    --columns: 1;
     --guildsize: 57;
     --aligndms: 0;
 }
