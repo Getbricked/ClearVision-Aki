@@ -1,0 +1,51 @@
+/* ClearVision-Aki Hover Animation Utilities
+    refact0r & animation logic by refact0r
+    File: Utils/on_hover.css
+    Description: Adds subtle lateral slide + unread dot shift animations
+    Repository: https://github.com/refact0r/midnight-discord
+    Notes: Uses margin-left transitions; consider translateX for better perf if extended
+*/
+
+.visual-refresh {
+    /* list hover animations */
+    .wrapper__2ea32 .link__2ea32
+    /* channels */
+    ,
+    .container__91a9d
+    /* members */
+    ,
+    .channel__972a0
+    /* dms */
+    ,
+    .side_b3f026 .item_b3f026
+
+    /* settings */
+        {
+        transition: margin-left 0.2s ease;
+        will-change: margin-left;
+    }
+
+    .wrapper__2ea32:hover .link__2ea32,
+    .side_b3f026 .item_b3f026:hover {
+        margin-left: 20px;
+    }
+
+    .container__91a9d:hover,
+    .channel__972a0:hover {
+        margin-left: 28px;
+    }
+
+    /* list hover channel dot */
+    .unread__2ea32 {
+        border-radius: 50%;
+        width: 8px;
+        height: 8px;
+        margin-left: -4px;
+        transition: 0.2s ease;
+        will-change: margin-left;
+    }
+
+    .wrapper__2ea32:hover .unread__2ea32 {
+        margin-left: 12px;
+    }
+}
