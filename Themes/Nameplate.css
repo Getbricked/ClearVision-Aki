@@ -168,4 +168,15 @@
     .container__4bbc6:has(img[src$="moonlit_charm/static.png"]) {
         background: linear-gradient(270deg, rgba(1, 49, 194, 0.1) 0%, rgba(1, 49, 194, 0.4) 100%) !important;
     }
+
+    /* --------- Starfall Tides ----------- */
+    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="starfall_tides_nightshade/asset.webm"]),
+    .container__4bbc6:has(img[src$="starfall_tides_nightshade/static.png"]) {
+        background: linear-gradient(270deg, rgba(137, 58, 153, 0.1) 0%, rgba(137, 58, 153, 0.4) 100%) !important;
+    }
+
+    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="starfall_tides_rose/asset.webm"]),
+    .container__4bbc6:has(img[src$="starfall_tides_rose/static.png"]) {
+        background: linear-gradient(270deg, rgba(220, 62, 151, 0.1) 0%, rgba(220, 62, 151, 0.4) 100%) !important;
+    }
 }
