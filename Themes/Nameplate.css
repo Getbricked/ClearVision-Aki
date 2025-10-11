@@ -179,4 +179,9 @@
     .container__4bbc6:has(img[src$="starfall_tides_rose/static.png"]) {
         background: linear-gradient(270deg, rgba(220, 62, 151, 0.1) 0%, rgba(220, 62, 151, 0.4) 100%) !important;
     }
+
+    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="im_watching_yooooou_treat/asset.webm"]),
+    .container__4bbc6:has(img[src$="im_watching_yooooou_treat/static.png"]) {
+        background: linear-gradient(270deg, rgba(220, 62, 151, 0.1) 0%, rgba(220, 62, 151, 0.4) 100%) !important;
+    }
 }
