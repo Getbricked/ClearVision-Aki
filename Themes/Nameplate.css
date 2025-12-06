@@ -181,4 +181,15 @@
     .container__4bbc6:has(img[src$="im_watching_yooooou_treat/static.png"]) {
         background: linear-gradient(270deg, rgba(220, 62, 151, 0.1) 0%, rgba(220, 62, 151, 0.4) 100%) !important;
     }
+
+    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="nitro_rocketfuel_nameplate/asset.webm"]),
+    .container__4bbc6:has(img[src$="nitro_rocketfuel_nameplate/static.png"]) {
+        background: linear-gradient(270deg, rgba(115, 11, 200, 0.1) 0%, rgba(115, 11, 200, 0.4) 100%) !important;
+    }
+
+    /* --------- Arctic Winter Frost ----------- */
+    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="arctic_winter_frost/asset.webm"]),
+    .container__4bbc6:has(img[src$="arctic_winter_frost/static.png"]) {
+        background: linear-gradient(270deg, rgba(1, 49, 194, 0.1) 0%, rgba(1, 49, 194, 0.4) 100%) !important;
+    }
 }
