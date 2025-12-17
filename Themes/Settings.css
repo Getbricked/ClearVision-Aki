@@ -1,20 +1,20 @@
 /* Server role management */
-/* .titleContainer_e29cd7,
-.header_c6bf1b {
+/* .e29cd7b93c4f1266-titleContainer,
+.c6bf1b7af480dfda-header {
     background: none !important;
 } */
 
 /* Server setting when click on web invitation link */
-.visual-refresh .editProfileContainer__42179 {
+.visual-refresh .editProfileContainer__7bf69 {
     background: var(--card-shading);
 }
 
 /* No separator in settings */
-.visual-refresh .separator_b3f026 {
+.visual-refresh .aa8da23faa27393c-separator {
     display: none;
 }
 
 /* Online pill on server invitation display from web */
-.pillOnline__921c5 {
+._921c50dc4baa4b4f-pillOnline {
     background: transparent;
 }

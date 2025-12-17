@@ -1,27 +1,27 @@
 /* --------------------------- GLOBAL --------------------------- */
 
 /* Nameplate size */
-.member__5d473 .container__4bbc6 {
+._5d473ecff348c314-member ._4bbc6dc06e75ad52-container {
     left: 7px;
     width: 97%;
 }
 
 /* Clearer nameplate (mostly for member list) */
-.videoContainer__4bbc6,
-.img__4bbc6 {
+._4bbc6dc06e75ad52-videoContainer,
+._4bbc6dc06e75ad52-img {
     mask-image: none !important;
 }
 
 /* --------------------------- USER PANEL --------------------------- */
-.panels__5e434:has(.activityPanel_c48ade) .container__4bbc6,
-.panels__5e434:has(.container_e131a9) .container__4bbc6 {
+._5e434347c823b592-panels:has(._5e434347c823b592-activityPanel) ._4bbc6dc06e75ad52-container,
+._5e434347c823b592-panels:has(.e131a99484292a19-container) ._4bbc6dc06e75ad52-container {
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
     border-bottom-right-radius: inherit;
     border-bottom-left-radius: inherit;
 }
 
-.panels__5e434 .container__4bbc6 {
+._5e434347c823b592-panels ._4bbc6dc06e75ad52-container {
     border-radius: inherit;
     left: -4px;
     top: -2px;
@@ -30,29 +30,29 @@
 }
 
 /* Remove border for VC panel and activity panel */
-.visual-refresh .panels__5e434:has(.container__4bbc6) .wrapper_e131a9,
-.visual-refresh .panels__5e434:has(.container__4bbc6) .panel__5dec7 {
+.visual-refresh ._5e434347c823b592-panels:has(._4bbc6dc06e75ad52-container) .e131a99484292a19-wrapper,
+.visual-refresh ._5e434347c823b592-panels:has(._4bbc6dc06e75ad52-container) ._5dec784a68542d60-panel {
     border-bottom: 0px solid rgba(225, 240, 253, 0.123);
 }
 
 /* Add border when VC panel and activity panel both appear */
-.visual-refresh .panels__5e434:has(.container_e131a9) .panel__5dec7 {
+.visual-refresh ._5e434347c823b592-panels:has(.e131a99484292a19-container) ._5dec784a68542d60-panel {
     border-bottom: 1px solid rgba(225, 240, 253, 0.123);
 }
 
 /* Clearer nameplate display globally */
-.img__4bbc6,
+._4bbc6dc06e75ad52-img,
 /* on member list */
-.img__4bbc6.hover__4bbc6,
-.img__4bbc6.selected__4bbc6,
+._4bbc6dc06e75ad52-img._4bbc6dc06e75ad52-hover,
+._4bbc6dc06e75ad52-img._4bbc6dc06e75ad52-selected,
 /* on store */
-.img__4bbc6.preview__4bbc6,
+._4bbc6dc06e75ad52-img._4bbc6dc06e75ad52-preview,
 /* on user panel */
-.img__4bbc6.account__4bbc6,
-.img__4bbc6.account__4bbc6.hover__4bbc6,
+._4bbc6dc06e75ad52-img._4bbc6dc06e75ad52-account,
+._4bbc6dc06e75ad52-img._4bbc6dc06e75ad52-account._4bbc6dc06e75ad52-hover,
 /* on dm */
-.img__4bbc6.channel__4bbc6.selected__4bbc6,
-.img__4bbc6.channel__4bbc6.hover__4bbc6 {
+._4bbc6dc06e75ad52-img._4bbc6dc06e75ad52-channel._4bbc6dc06e75ad52-selected,
+._4bbc6dc06e75ad52-img._4bbc6dc06e75ad52-channel._4bbc6dc06e75ad52-hover {
     opacity: 1;
 }
 
@@ -62,134 +62,134 @@
 .theme-dark {
 
     /* ------- Twilight + Sword of Legend + Sun and Moon + Blue Mana ------- */
-    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="twilight/asset.webm"]),
-    .container__4bbc6:has(img[src$="twilight/static.png"]),
+    ._4bbc6dc06e75ad52-container:has(._4bbc6dc06e75ad52-videoContainer video[src$="twilight/asset.webm"]),
+    ._4bbc6dc06e75ad52-container:has(img[src$="twilight/static.png"]),
 
-    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="sword_of_legend/asset.webm"]),
-    .container__4bbc6:has(img[src$="sword_of_legend/static.png"]),
+    ._4bbc6dc06e75ad52-container:has(._4bbc6dc06e75ad52-videoContainer video[src$="sword_of_legend/asset.webm"]),
+    ._4bbc6dc06e75ad52-container:has(img[src$="sword_of_legend/static.png"]),
 
-    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="sun_and_moon/asset.webm"]),
-    .container__4bbc6:has(img[src$="sun_and_moon/static.png"]),
+    ._4bbc6dc06e75ad52-container:has(._4bbc6dc06e75ad52-videoContainer video[src$="sun_and_moon/asset.webm"]),
+    ._4bbc6dc06e75ad52-container:has(img[src$="sun_and_moon/static.png"]),
 
-    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="blue_mana/asset.webm"]),
-    .container__4bbc6:has(img[src$="blue_mana/static.png"]) {
+    ._4bbc6dc06e75ad52-container:has(._4bbc6dc06e75ad52-videoContainer video[src$="blue_mana/asset.webm"]),
+    ._4bbc6dc06e75ad52-container:has(img[src$="blue_mana/static.png"]) {
         background: linear-gradient(270deg, rgba(1, 49, 194, 0.1) 0%, rgba(1, 49, 194, 0.4) 100%) !important;
     }
 
     /* ------- Cherry blossoms + Oasis + Cozy Cat ------- */
-    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="cherry_blossoms/asset.webm"]),
-    .container__4bbc6:has(img[src$="cherry_blossoms/static.png"]),
+    ._4bbc6dc06e75ad52-container:has(._4bbc6dc06e75ad52-videoContainer video[src$="cherry_blossoms/asset.webm"]),
+    ._4bbc6dc06e75ad52-container:has(img[src$="cherry_blossoms/static.png"]),
 
-    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="oasis/asset.webm"]),
-    .container__4bbc6:has(img[src$="oasis/static.png"]),
+    ._4bbc6dc06e75ad52-container:has(._4bbc6dc06e75ad52-videoContainer video[src$="oasis/asset.webm"]),
+    ._4bbc6dc06e75ad52-container:has(img[src$="oasis/static.png"]),
 
-    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="cozy_cat/asset.webm"]),
-    .container__4bbc6:has(img[src$="cozy_cat/static.png"]) {
+    ._4bbc6dc06e75ad52-container:has(._4bbc6dc06e75ad52-videoContainer video[src$="cozy_cat/asset.webm"]),
+    ._4bbc6dc06e75ad52-container:has(img[src$="cozy_cat/static.png"]) {
         background: linear-gradient(270deg, rgba(137, 58, 153, 0.1) 0%, rgba(137, 58, 153, 0.4) 100%) !important;
     }
 
     /* ------- Spririt of spring + Koi pond + Touch Grass + Under the Sea ------- */
-    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="spirit_of_spring/asset.webm"]),
-    .container__4bbc6:has(img[src$="spirit_of_spring/static.png"]),
+    ._4bbc6dc06e75ad52-container:has(._4bbc6dc06e75ad52-videoContainer video[src$="spirit_of_spring/asset.webm"]),
+    ._4bbc6dc06e75ad52-container:has(img[src$="spirit_of_spring/static.png"]),
 
-    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="koi_pond/asset.webm"]),
-    .container__4bbc6:has(img[src$="koi_pond/static.png"]),
+    ._4bbc6dc06e75ad52-container:has(._4bbc6dc06e75ad52-videoContainer video[src$="koi_pond/asset.webm"]),
+    ._4bbc6dc06e75ad52-container:has(img[src$="koi_pond/static.png"]),
 
-    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="touch_grass/asset.webm"]),
-    .container__4bbc6:has(img[src$="touch_grass/static.png"]),
+    ._4bbc6dc06e75ad52-container:has(._4bbc6dc06e75ad52-videoContainer video[src$="touch_grass/asset.webm"]),
+    ._4bbc6dc06e75ad52-container:has(img[src$="touch_grass/static.png"]),
 
-    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="under_the_sea/asset.webm"]),
-    .container__4bbc6:has(img[src$="under_the_sea/static.png"]) {
+    ._4bbc6dc06e75ad52-container:has(._4bbc6dc06e75ad52-videoContainer video[src$="under_the_sea/asset.webm"]),
+    ._4bbc6dc06e75ad52-container:has(img[src$="under_the_sea/static.png"]) {
         background: linear-gradient(270deg, rgba(0, 128, 183, 0.1) 0%, rgba(0, 128, 183, 0.4) 100%) !important;
     }
 
     /* ------- Cityscape + Cat beans + Vengeance + Black Mana + Glitch + Spirit Moon ------- */
-    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="cityscape/asset.webm"]),
-    .container__4bbc6:has(img[src$="cityscape/static.png"]),
+    ._4bbc6dc06e75ad52-container:has(._4bbc6dc06e75ad52-videoContainer video[src$="cityscape/asset.webm"]),
+    ._4bbc6dc06e75ad52-container:has(img[src$="cityscape/static.png"]),
 
-    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="cat_beans/asset.webm"]),
-    .container__4bbc6:has(img[src$="cat_beans/static.png"]),
+    ._4bbc6dc06e75ad52-container:has(._4bbc6dc06e75ad52-videoContainer video[src$="cat_beans/asset.webm"]),
+    ._4bbc6dc06e75ad52-container:has(img[src$="cat_beans/static.png"]),
 
-    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="vengeance/asset.webm"]),
-    .container__4bbc6:has(img[src$="vengeance/static.png"]),
+    ._4bbc6dc06e75ad52-container:has(._4bbc6dc06e75ad52-videoContainer video[src$="vengeance/asset.webm"]),
+    ._4bbc6dc06e75ad52-container:has(img[src$="vengeance/static.png"]),
 
-    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="black_mana/asset.webm"]),
-    .container__4bbc6:has(img[src$="black_mana/static.png"]),
+    ._4bbc6dc06e75ad52-container:has(._4bbc6dc06e75ad52-videoContainer video[src$="black_mana/asset.webm"]),
+    ._4bbc6dc06e75ad52-container:has(img[src$="black_mana/static.png"]),
 
-    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="glitch/asset.webm"]),
-    .container__4bbc6:has(img[src$="glitch/static.png"]),
+    ._4bbc6dc06e75ad52-container:has(._4bbc6dc06e75ad52-videoContainer video[src$="glitch/asset.webm"]),
+    ._4bbc6dc06e75ad52-container:has(img[src$="glitch/static.png"]),
 
-    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="spirit_moon/asset.webm"]),
-    .container__4bbc6:has(img[src$="spirit_moon/static.png"]) {
+    ._4bbc6dc06e75ad52-container:has(._4bbc6dc06e75ad52-videoContainer video[src$="spirit_moon/asset.webm"]),
+    ._4bbc6dc06e75ad52-container:has(img[src$="spirit_moon/static.png"]) {
         background: linear-gradient(270deg, rgba(115, 11, 200, 0.1) 0%, rgba(115, 11, 200, 0.4) 100%) !important;
     }
 
     /* ------- Angels + Bonsai + Pixie Dust ------- */
-    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="angels/asset.webm"]),
-    .container__4bbc6:has(img[src$="angels/static.png"]),
+    ._4bbc6dc06e75ad52-container:has(._4bbc6dc06e75ad52-videoContainer video[src$="angels/asset.webm"]),
+    ._4bbc6dc06e75ad52-container:has(img[src$="angels/static.png"]),
 
-    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="bonsai/asset.webm"]),
-    .container__4bbc6:has(img[src$="bonsai/static.png"]),
+    ._4bbc6dc06e75ad52-container:has(._4bbc6dc06e75ad52-videoContainer video[src$="bonsai/asset.webm"]),
+    ._4bbc6dc06e75ad52-container:has(img[src$="bonsai/static.png"]),
 
-    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="pixie_dust/asset.webm"]),
-    .container__4bbc6:has(img[src$="pixie_dust/static.png"]) {
+    ._4bbc6dc06e75ad52-container:has(._4bbc6dc06e75ad52-videoContainer video[src$="pixie_dust/asset.webm"]),
+    ._4bbc6dc06e75ad52-container:has(img[src$="pixie_dust/static.png"]) {
         background: linear-gradient(270deg, rgba(220, 62, 151, 0.1) 0%, rgba(220, 62, 151, 0.4) 100%) !important;
     }
 
     /* ------- Aurora + Starfall Tides ------- */
-    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="aurora/asset.webm"]),
-    .container__4bbc6:has(img[src$="aurora/static.png"]),
+    ._4bbc6dc06e75ad52-container:has(._4bbc6dc06e75ad52-videoContainer video[src$="aurora/asset.webm"]),
+    ._4bbc6dc06e75ad52-container:has(img[src$="aurora/static.png"]),
 
-    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="starfall_tides/asset.webm"]),
-    .container__4bbc6:has(img[src$="starfall_tides/static.png"]) {
+    ._4bbc6dc06e75ad52-container:has(._4bbc6dc06e75ad52-videoContainer video[src$="starfall_tides/asset.webm"]),
+    ._4bbc6dc06e75ad52-container:has(img[src$="starfall_tides/static.png"]) {
         background: linear-gradient(270deg, rgba(8, 100, 96, 0.1) 0%, rgba(8, 100, 96, 0.4) 100%) !important;
     }
 
     /* ------- White Mana ------- */
-    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="white_mana/asset.webm"]),
-    .container__4bbc6:has(img[src$="white_mana/static.png"]) {
+    ._4bbc6dc06e75ad52-container:has(._4bbc6dc06e75ad52-videoContainer video[src$="white_mana/asset.webm"]),
+    ._4bbc6dc06e75ad52-container:has(img[src$="white_mana/static.png"]) {
         background: linear-gradient(270deg, rgba(220, 62, 151, 0.1) 0%, rgba(220, 62, 151, 0.4) 100%) !important;
     }
 
     /* ------- Red Mana ------- */
-    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="red_mana/asset.webm"]),
-    .container__4bbc6:has(img[src$="red_mana/static.png"]) {
+    ._4bbc6dc06e75ad52-container:has(._4bbc6dc06e75ad52-videoContainer video[src$="red_mana/asset.webm"]),
+    ._4bbc6dc06e75ad52-container:has(img[src$="red_mana/static.png"]) {
         background: linear-gradient(270deg, rgba(144, 0, 7, 0.1) 0%, rgba(144, 0, 7, 0.4) 100%) !important;
     }
 
     /* ------- Green Mana ------- */
-    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="green_mana/asset.webm"]),
-    .container__4bbc6:has(img[src$="green_mana/static.png"]) {
+    ._4bbc6dc06e75ad52-container:has(._4bbc6dc06e75ad52-videoContainer video[src$="green_mana/asset.webm"]),
+    ._4bbc6dc06e75ad52-container:has(img[src$="green_mana/static.png"]) {
         background: linear-gradient(270deg, rgba(4, 123, 32, 0.1) 0%, rgba(4, 123, 32, 0.4) 100%) !important;
     }
 
     /* --------- Moonlit Charm ----------- */
-    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="moonlit_charm/asset.webm"]),
-    .container__4bbc6:has(img[src$="moonlit_charm/static.png"]) {
+    ._4bbc6dc06e75ad52-container:has(._4bbc6dc06e75ad52-videoContainer video[src$="moonlit_charm/asset.webm"]),
+    ._4bbc6dc06e75ad52-container:has(img[src$="moonlit_charm/static.png"]) {
         background: linear-gradient(270deg, rgba(1, 49, 194, 0.1) 0%, rgba(1, 49, 194, 0.4) 100%) !important;
     }
 
     /* --------- Starfall Tides ----------- */
-    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="starfall_tides_nightshade/asset.webm"]),
-    .container__4bbc6:has(img[src$="starfall_tides_nightshade/static.png"]) {
+    ._4bbc6dc06e75ad52-container:has(._4bbc6dc06e75ad52-videoContainer video[src$="starfall_tides_nightshade/asset.webm"]),
+    ._4bbc6dc06e75ad52-container:has(img[src$="starfall_tides_nightshade/static.png"]) {
         background: linear-gradient(270deg, rgba(137, 58, 153, 0.1) 0%, rgba(137, 58, 153, 0.4) 100%) !important;
     }
 
-    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="starfall_tides_rose/asset.webm"]),
-    .container__4bbc6:has(img[src$="starfall_tides_rose/static.png"]),
-    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="im_watching_yooooou_treat/asset.webm"]),
-    .container__4bbc6:has(img[src$="im_watching_yooooou_treat/static.png"]) {
+    ._4bbc6dc06e75ad52-container:has(._4bbc6dc06e75ad52-videoContainer video[src$="starfall_tides_rose/asset.webm"]),
+    ._4bbc6dc06e75ad52-container:has(img[src$="starfall_tides_rose/static.png"]),
+    ._4bbc6dc06e75ad52-container:has(._4bbc6dc06e75ad52-videoContainer video[src$="im_watching_yooooou_treat/asset.webm"]),
+    ._4bbc6dc06e75ad52-container:has(img[src$="im_watching_yooooou_treat/static.png"]) {
         background: linear-gradient(270deg, rgba(220, 62, 151, 0.1) 0%, rgba(220, 62, 151, 0.4) 100%) !important;
     }
 
-    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="nitro_rocketfuel_nameplate/asset.webm"]),
-    .container__4bbc6:has(img[src$="nitro_rocketfuel_nameplate/static.png"]) {
+    ._4bbc6dc06e75ad52-container:has(._4bbc6dc06e75ad52-videoContainer video[src$="nitro_rocketfuel_nameplate/asset.webm"]),
+    ._4bbc6dc06e75ad52-container:has(img[src$="nitro_rocketfuel_nameplate/static.png"]) {
         background: linear-gradient(270deg, rgba(115, 11, 200, 0.1) 0%, rgba(115, 11, 200, 0.4) 100%) !important;
     }
 
     /* --------- Arctic Winter Frost ----------- */
-    .container__4bbc6:has(.videoContainer__4bbc6 video[src$="arctic_winter_frost/asset.webm"]),
-    .container__4bbc6:has(img[src$="arctic_winter_frost/static.png"]) {
+    ._4bbc6dc06e75ad52-container:has(._4bbc6dc06e75ad52-videoContainer video[src$="arctic_winter_frost/asset.webm"]),
+    ._4bbc6dc06e75ad52-container:has(img[src$="arctic_winter_frost/static.png"]) {
         background: linear-gradient(270deg, rgba(1, 49, 194, 0.1) 0%, rgba(1, 49, 194, 0.4) 100%) !important;
     }
 }

@@ -1,50 +1,50 @@
 /* Remove Guild Tag Banner */
-/* .banner__86ab2 {
+/* .dca174a2baed7ac1-banner {
     background: transparent !important;
 } */
 
-/* .container__86ab2 {
+/* .dca174a2baed7ac1-container {
     background: var(--background-shading);
 } */
 
-/* .outer_c0bea0.custom-user-profile-theme .inner_c0bea0 {
+/* .c0bea05627c5dc35-outer.custom-user-profile-theme .c0bea05627c5dc35-inner {
     
 } */
 
 /* User pop up remove banner for non-nitro users*/
-/* :where(.banner__68edb:not([style*="background-image"])) {
+/* :where(._68edb95846a37624-banner:not([style*="background-image"])) {
     background: none !important;
 } */
 
 /* Gradient top banner for non-nitro only */
 /* Need to keep banner on top for it to work.... */
-.outer_c0bea0:not(.custom-user-profile-theme) .inner_c0bea0 .mask__68edb {
+.c0bea05627c5dc35-outer:not(.custom-user-profile-theme) .c0bea05627c5dc35-inner ._68edb95846a37624-mask {
     mask: linear-gradient(black -5%, 0%, transparent);
 }
 
 /* Remove outer padding + remove custom nitro background for nitro user */
-.outer_c0bea0.custom-user-profile-theme {
+.c0bea05627c5dc35-outer.custom-user-profile-theme {
     padding: 0;
 }
 
 /* Shading user pop for non-nitro user */
-/* .outer_c0bea0:not(.custom-user-profile-theme) {
+/* .c0bea05627c5dc35-outer:not(.custom-user-profile-theme) {
     background: var(--card-shading);
 }
 
-.fullscreenOnMobile__49fc1 .outer_c0bea0:not(.custom-user-profile-theme) {
+._49fc18ba07c5025f-fullscreenOnMobile .c0bea05627c5dc35-outer:not(.custom-user-profile-theme) {
     background: var(--popout-shading);
 } */
 
 /* 
-.animatorRight_faf9c0 .outer_c0bea0:not(.custom-user-profile-theme) {
+.faf9c0f0be1b8685-animatorRight .c0bea05627c5dc35-outer:not(.custom-user-profile-theme) {
     background: var(--popout-shading);
 } */
 
 
 
 /* This is something fun.....  */
-/* .outer_c0bea0 .inner_c0bea0 {
+/* .c0bea05627c5dc35-outer .c0bea05627c5dc35-inner {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), var(--background-image) no-repeat center center / cover !important;
     background-position: center calc(100% + 100px) !important;
 } */
