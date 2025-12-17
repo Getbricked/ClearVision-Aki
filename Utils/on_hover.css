@@ -17,8 +17,7 @@
     ._972a0d22c8afa7f0-channel
     /* dms */
     ,
-    .aa8da23faa27393c-side .aa8da23faa27393c-item,
-    ._5126c0cd07f243a0-messageListItem
+    .aa8da23faa27393c-side .aa8da23faa27393c-item
 
     /* settings */
         {
@@ -47,10 +46,6 @@
     }
 
     ._2ea32c412048f708-wrapper:hover ._2ea32c412048f708-unread {
-        margin-left: 12px;
-    }
-
-    ._5126c0cd07f243a0-messageListItem:hover {
         margin-left: 12px;
     }
 }
